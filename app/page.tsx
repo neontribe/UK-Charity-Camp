@@ -1,5 +1,10 @@
 import "./page.css";
-
+import PageHeader from "./components/PageHeader/PageHeader";
 export default function Home() {
-  return <main></main>;
+  return (
+    <>
+      <PageHeader />
+      <main></main>;
+    </>
+  );
 }

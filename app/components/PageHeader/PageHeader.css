@@ -1,0 +1,10 @@
+header {
+  background-color: purple;
+  width: 100%;
+  display: flex;
+}
+
+.logo-container {
+  margin-left: 0;
+  margin-right: auto;
+}
