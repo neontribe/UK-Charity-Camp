@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../public/fonts/source-sans-regular.woff2") format("woff2"),
+    url("../public/fonts/source-sans-regular.woff") format("woff");
+}
+
+:root {
+  /* font family */
+  --primary-font: "Soleil", sans-serif;
+  --secondary-font: "Source Sans Pro", sans-serif;
+
+  /* colours */
+  --c-royal-blue: #3356a3;
+  --c-reddish-orange: #ed6575;
+  --c-dark-grey: #494f5b;
+  --c-white: #ffffff;
+
+  /* font sizes */
+  --v-small: 17px;
+  --small: 23px;
+  --medium: 30px;
+  --large: 43px;
+  --v-large: 68px;
+
+  /* font weights */
+  --light: 300;
+  --normal: 400;
+  --bold: 500;
+  --x-bold: 700;
+}
