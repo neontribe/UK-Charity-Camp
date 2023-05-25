@@ -4,7 +4,7 @@ const PageHeader = () => {
     <header>
       <div className="logo-container">Logo</div>
 
-      <div>Navigation</div>
+     
     </header>
   );
 };
