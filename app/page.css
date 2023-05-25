@@ -1,2 +1,45 @@
-.place-holder-to-stop-code-breaking {
+.main-heading {
+  font-weight: var(--x-bold);
+  font-size: var(--v-large);
+  width: 11ch;
+  line-height: 5.4rem;
+}
+
+.main-heading-red-letters {
+  color: var(--c-reddish-orange);
+}
+
+.date-heading {
+  font-weight: var(--bold);
+  font-size: var(--large);
+  width: 8ch;
+  line-height: 3.7rem;
+}
+
+.sign-up-label {
+  font-family: var(--secondary-font);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.sign-up-button {
+  background-color: var(--c-reddish-orange);
+  color: var(--c-dark-grey);
+  border: none;
+  font-size: var(--small);
+  font-family: var(--primary-font);
+}
+
+.sign-up-input-field {
+  font-size: var(--small);
+}
+
+.twitter-cta-text {
+  font-size: var(--small);
+}
+
+.twitter-link {
+  text-decoration: none;
+  border-bottom: var(--c-white) 0.01rem solid;
 }
