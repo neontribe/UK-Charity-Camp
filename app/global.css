@@ -1,0 +1,5 @@
+body {
+  background-color: var(--c-royal-blue);
+  font-family: var(--primary-font);
+  color: var(--c-white);
+}
