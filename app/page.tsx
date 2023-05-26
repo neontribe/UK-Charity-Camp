@@ -1,3 +1,4 @@
+import Image from "next/image";
 import "./page.css";
 import PageHeader from "./components/PageHeader/PageHeader";
 export default function Home() {
@@ -38,7 +39,14 @@ export default function Home() {
             <p>small circle</p>
           </div>
           <div>
-            <p> Twitter Icon</p>
+            <Image
+              className="twitter-image"
+              src="twitter-icon.svg"
+              width={50}
+              height={50}
+              alt="Twitter"
+            />
+
             <p className="twitter-cta-text">
               Follow us on <a className="twitter-link">Twitter</a> for updates
             </p>

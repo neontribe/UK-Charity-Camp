@@ -43,3 +43,7 @@
   text-decoration: none;
   border-bottom: var(--c-white) 0.01rem solid;
 }
+
+.twitter-image {
+  margin-right: 2rem;
+}
