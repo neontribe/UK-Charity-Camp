@@ -1,9 +1,19 @@
 header {
-  width: 100%;
   display: flex;
+  align-items: center;
+  margin: 1.5rem 4rem;
 }
 
 .logo-container {
   margin-left: 0;
   margin-right: auto;
+}
+
+.privacy-link {
+  font-family: var(--secondary-font);
+  font-size: var(--v-small);
+  font-weight: var(--bold);
+  color: var(--c-white);
+  border-bottom: var(--c-reddish-orange) 0.13rem solid;
+  text-decoration: none;
 }
