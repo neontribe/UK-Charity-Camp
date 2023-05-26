@@ -43,3 +43,31 @@
   text-decoration: none;
   border-bottom: var(--c-white) 0.01rem solid;
 }
+.main-container {
+  display: flex;
+  justify-content: center;
+  margin: 7rem 2rem;
+  column-gap: 16rem;
+  flex-wrap: wrap;
+}
+
+.right-container {
+  margin-top: 7rem;
+}
+
+.text-container {
+  width: 55ch;
+  font-family: var(--secondary-font);
+  font-size: var(--v-small);
+  font-weight: var(--light);
+  line-height: 20px;
+}
+.location-container {
+  display: flex;
+}
+
+.twitter-container {
+  display: flex;
+  align-items: center;
+  margin-top: 8rem;
+}
