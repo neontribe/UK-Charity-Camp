@@ -6,21 +6,36 @@ export default function Home() {
     <>
       <PageHeader />
       <main>
-
         <div className="main-container circle">
           <div className="left-container">
             <h1 className="main-heading">
               {" "}
-              Third sector <span className="main-heading-red-letters">un</span>
+              Third sector <span className="main-heading-red-letters">Un</span>
               conference{" "}
             </h1>
 
             <div className="location-container">
-              <div>
-                <p>Location Icon</p>
-                <p>small circle</p>
-                <p>small circle</p>
-                <p>small circle</p>
+              <div className="map-icon-container">
+                <Image
+                  src="map-pin.svg"
+                  height={80}
+                  width={70}
+                  alt="Map pin icon"
+                />
+
+                <Image
+                  src="map-elipse.svg"
+                  height={10}
+                  width={10}
+                  alt="Map pin icon"
+                />
+
+                <Image
+                  src="map-elipse.svg"
+                  height={10}
+                  width={10}
+                  alt="Map pin icon"
+                />
               </div>
               <div>
                 <h2 className="date-heading">DD/MM/YY Birmingham </h2>

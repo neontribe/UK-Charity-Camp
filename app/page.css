@@ -11,9 +11,11 @@
 
 .date-heading {
   font-weight: var(--bold);
-  font-size: var(--large);
+  font-size: var(--medium);
   width: 8ch;
-  line-height: 3.7rem;
+  line-height: 2.8rem;
+  margin: 0;
+  margin-left: 1.4rem;
 }
 
 .sign-up-label {
@@ -70,6 +72,14 @@
 }
 .location-container {
   display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.map-icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 18px;
 }
 
 .twitter-container {
