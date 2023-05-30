@@ -5,7 +5,7 @@ const PageHeader = () => {
   return (
     <header>
       <div className="logo-container">
-        <Image alt="not working" src="logo.svg" width={250} height={51} />
+        <Image alt="UK Charity Camp Logo" src="logo.svg" width={250} height={51} />
       </div>
 
       <div>
