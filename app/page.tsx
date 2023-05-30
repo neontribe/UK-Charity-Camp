@@ -5,7 +5,7 @@ export default function Home() {
     <>
       <PageHeader />
       <main>
-        <div>
+        <div className="circle">
           <h1 className="main-heading">
             {" "}
             Third sector <span className="main-heading-red-letters">un</span>
