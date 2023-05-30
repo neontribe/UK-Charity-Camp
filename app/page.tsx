@@ -6,21 +6,36 @@ export default function Home() {
     <>
       <PageHeader />
       <main>
-
         <div className="main-container circle">
           <div className="left-container">
             <h1 className="main-heading">
               {" "}
-              Third sector <span className="main-heading-red-letters">un</span>
+              Third sector <span className="main-heading-red-letters">Un</span>
               conference{" "}
             </h1>
 
             <div className="location-container">
-              <div>
-                <p>Location Icon</p>
-                <p>small circle</p>
-                <p>small circle</p>
-                <p>small circle</p>
+              <div className="map-icon-container">
+                <Image
+                  src="map-pin.svg"
+                  height={80}
+                  width={70}
+                  alt="Map pin icon"
+                />
+
+                <Image
+                  src="map-elipse.svg"
+                  height={10}
+                  width={10}
+                  alt="Small circle that is part of the map pin icon"
+                />
+
+                <Image
+                  src="map-elipse.svg"
+                  height={10}
+                  width={10}
+                  alt="Another small circle part of the map pin icon"
+                />
               </div>
               <div>
                 <h2 className="date-heading">DD/MM/YY Birmingham </h2>
@@ -28,12 +43,14 @@ export default function Home() {
             </div>
 
             <form className="sign-up-form">
-              <label className="sign-up-label">
+              <label htmlFor="email-signup" className="sign-up-label">
                 Sign up for more information
               </label>
-              <div>
+              <div className="submit-container">
                 <input
                   className="sign-up-input-field"
+                  id="email-signup"
+                  name="email-signup"
                   type="email"
                   placeholder="example@mail.com"
                 ></input>
