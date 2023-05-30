@@ -6,7 +6,8 @@ export default function Home() {
     <>
       <PageHeader />
       <main>
-        <div className="main-container">
+
+        <div className="main-container circle">
           <div className="left-container">
             <h1 className="main-heading">
               {" "}

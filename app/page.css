@@ -42,11 +42,12 @@
 .twitter-link {
   text-decoration: none;
   border-bottom: var(--c-white) 0.01rem solid;
+  color: var(--c-white);
 }
 
-
 .twitter-image {
-  margin-right: 2rem; }
+  margin-right: 2rem;
+}
 
 .main-container {
   display: flex;
@@ -75,5 +76,50 @@
   display: flex;
   align-items: center;
   margin-top: 8rem;
+}
 
+.circle::before {
+  content: "";
+  width: 10vh;
+  height: 10vh;
+  background: var(--c-reddish-orange);
+  border-radius: 50%;
+  position: absolute;
+  right: -17px;
+  bottom: 42px;
+}
+
+.circle::after {
+  content: "";
+  width: 7vh;
+  height: 7vh;
+  background: var(--c-reddish-orange);
+  border-radius: 50%;
+  position: absolute;
+  right: 70px;
+  bottom: -20px;
+}
+
+@media (max-width: 1000px) {
+  .circle::before {
+    content: "";
+    width: 6vh;
+    height: 6vh;
+    background: var(--c-reddish-orange);
+    border-radius: 50%;
+    position: absolute;
+    right: -17px;
+    bottom: 450px;
+  }
+
+  .circle::after {
+    content: "";
+    width: 4vh;
+    height: 4vh;
+    background: var(--c-reddish-orange);
+    border-radius: 50%;
+    position: absolute;
+    right: 40px;
+    bottom: 410px;
+  }
 }
