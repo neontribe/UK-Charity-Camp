@@ -27,14 +27,14 @@ export default function Home() {
                   src="map-elipse.svg"
                   height={10}
                   width={10}
-                  alt="Map pin icon"
+                  alt="Small circle that is part of the map pin icon"
                 />
 
                 <Image
                   src="map-elipse.svg"
                   height={10}
                   width={10}
-                  alt="Map pin icon"
+                  alt="Another small circle part of the map pin icon"
                 />
               </div>
               <div>
@@ -43,12 +43,14 @@ export default function Home() {
             </div>
 
             <form className="sign-up-form">
-              <label className="sign-up-label">
+              <label htmlFor="email-signup" className="sign-up-label">
                 Sign up for more information
               </label>
-              <div>
+              <div className="submit-container">
                 <input
                   className="sign-up-input-field"
+                  id="email-signup"
+                  name="email-signup"
                   type="email"
                   placeholder="example@mail.com"
                 ></input>

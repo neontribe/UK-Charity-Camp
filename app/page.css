@@ -20,7 +20,7 @@
 
 .sign-up-label {
   font-family: var(--secondary-font);
-  font-size: 30px;
+  font-size: 1.9rem;
   font-style: normal;
   font-weight: 500;
 }
@@ -31,10 +31,25 @@
   border: none;
   font-size: var(--small);
   font-family: var(--primary-font);
+  height: 100%;
+  width: 25%;
+  align-self: baseline;
+  font-weight: var(--bolder);
+}
+.submit-container {
+  height: 3.1rem;
+  margin-top: 1.5rem;
+  width: 100%;
+  display: flex;
 }
 
 .sign-up-input-field {
-  font-size: var(--small);
+  font-size: var(--v-small);
+  height: 100%;
+  padding: 0;
+  width: 69%;
+  border: none;
+  padding-left: 1.5rem;
 }
 
 .twitter-cta-text {
@@ -79,7 +94,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  row-gap: 18px;
+  row-gap: 1.1rem;
 }
 
 .twitter-container {
