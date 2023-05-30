@@ -44,6 +44,36 @@
   border-bottom: var(--c-white) 0.01rem solid;
 }
 
+
 .twitter-image {
-  margin-right: 2rem;
+  margin-right: 2rem; }
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  margin: 7rem 2rem;
+  column-gap: 16rem;
+  flex-wrap: wrap;
+}
+
+.right-container {
+  margin-top: 7rem;
+}
+
+.text-container {
+  width: 55ch;
+  font-family: var(--secondary-font);
+  font-size: var(--v-small);
+  font-weight: var(--light);
+  line-height: 20px;
+}
+.location-container {
+  display: flex;
+}
+
+.twitter-container {
+  display: flex;
+  align-items: center;
+  margin-top: 8rem;
+
 }
