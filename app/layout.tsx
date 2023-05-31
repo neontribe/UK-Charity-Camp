@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="UK Charity Camp Icon" href="images/favicon.ico" />
+        <link rel="icon" href="images/favicon.ico" />
       </head>
       <body>{children}</body>
     </html>
