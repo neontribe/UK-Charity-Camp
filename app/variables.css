@@ -22,6 +22,14 @@
   --large: 43px;
   --v-large: 68px;
 
+  /* mobile font sizes */
+
+  --m-v-small: 17px;
+  --m-small: 20px;
+  --m-medium: 24px;
+  --m-large: 26px;
+  --m-v-large: 38px;
+
   /* font weights */
   --light: 300;
   --normal: 400;

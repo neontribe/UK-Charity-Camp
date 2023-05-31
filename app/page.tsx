@@ -94,6 +94,12 @@ export default function Home() {
                 for updates
               </p>
             </div>
+            <a
+              className="privacy"
+              href="https://www.dxw.com/privacy-statement/"
+            >
+              Privacy Policy
+            </a>
           </div>
         </div>
       </main>
