@@ -1,7 +1,7 @@
 header {
   display: flex;
   align-items: center;
-  margin: 1.5rem 4rem;
+  margin: 1.5rem clamp(0.5rem, calc(-3rem + 11.09vw), 4rem);
 }
 
 .logo-container {
@@ -16,4 +16,7 @@ header {
   color: var(--c-white);
   border-bottom: var(--c-reddish-orange) 0.13rem solid;
   text-decoration: none;
+  @media (max-width: 420px) {
+    display: none;
+  }
 }
