@@ -1,7 +1,27 @@
+"use client";
 import Image from "next/image";
+import { FormEvent, useState } from "react";
+
 import "./page.css";
 import PageHeader from "./components/PageHeader/PageHeader";
+
 export default function Home() {
+  const [email, setEmail] = useState("");
+  const submitHandler = async () => {
+    const response = await fetch("/api/email", {
+      method: "POST",
+      body: JSON.stringify({ email }),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+  };
+
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    submitHandler();
+  };
+
   return (
     <>
       <PageHeader />
@@ -42,7 +62,7 @@ export default function Home() {
               </div>
             </div>
 
-            <form className="sign-up-form">
+            <form onSubmit={handleSubmit} className="sign-up-form">
               <label htmlFor="email-signup" className="sign-up-label">
                 Sign up for more information
               </label>
@@ -53,6 +73,8 @@ export default function Home() {
                   name="email-signup"
                   type="email"
                   placeholder="example@mail.com"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
                 ></input>
                 <button className="sign-up-button">Submit</button>
               </div>
