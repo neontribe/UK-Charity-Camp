@@ -75,6 +75,10 @@
   }
 }
 
+.website-url-pot {
+  display: none;
+}
+
 .twitter-cta-text {
   font-size: var(--small);
   @media (max-width: 600px) {

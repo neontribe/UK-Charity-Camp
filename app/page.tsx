@@ -7,6 +7,8 @@ import PageHeader from "./components/PageHeader/PageHeader";
 
 export default function Home() {
   const [email, setEmail] = useState("");
+  // URL variables will not store real URL's - they will be used to catch inputs from bots and have realistic form names to mask bot detecting functionality
+  const [url, setURL] = useState("");
   const submitHandler = async () => {
     const response = await fetch("/api/email", {
       method: "POST",
@@ -19,7 +21,14 @@ export default function Home() {
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    if (url !== "") {
+      //resets the input field so that it is blank
+      setURL("");
+      return;
+    }
     submitHandler();
+    //resets the input field so that it is blank
+    setEmail("");
   };
 
   return (
@@ -76,6 +85,22 @@ export default function Home() {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                 ></input>
+                {/* a form field to catch bots, it does not collect any data */}
+                <div className="website-url-pot">
+                  <label htmlFor="website-url">Your website</label>
+                  <input
+                    type="text"
+                    id="website-url"
+                    name="website-url"
+                    value={url}
+                    tabIndex={-1}
+                    onChange={(e) => setURL(e.target.value)}
+                    autoComplete="off"
+                    placeholder="not for users, please skip"
+                  />
+                </div>
+                {/* a form field to catch bots, it does not collect user data */}
+
                 <button className="sign-up-button">Submit</button>
               </div>
             </form>
