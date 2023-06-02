@@ -104,7 +104,7 @@
 }
 
 .right-container {
-  margin-top: 7rem;
+  margin-top: clamp(1.13rem, calc(-2rem + 8.09vw), 6rem);
 
   @media (max-width: 600px) {
     width: 100%;
@@ -131,7 +131,13 @@
 
   @media (max-width: 600px) {
     line-height: 2rem;
-    width: 28ch;
+    width: 100%;
+  }
+}
+
+.text-container p {
+  @media (max-width: 600px) {
+    margin-right: 4rem;
   }
 }
 .location-container {
@@ -149,7 +155,7 @@
 .twitter-container {
   display: flex;
   align-items: center;
-  margin-top: 8rem;
+  margin-top: 3.5rem;
 
   @media (max-width: 600px) {
     margin-top: 2rem;
