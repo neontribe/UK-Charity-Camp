@@ -16,7 +16,7 @@
 
 .date-heading {
   font-weight: var(--bold);
-  font-size: var(--medium);
+  font-size: var(--large);
   width: 8ch;
   line-height: 2.8rem;
   margin: 0;
@@ -30,7 +30,7 @@
 
 .sign-up-label {
   font-family: var(--secondary-font);
-  font-size: 1.9rem;
+  font-size: var(--medium);
   font-style: normal;
   font-weight: 500;
 
@@ -78,7 +78,7 @@
 .main-container {
   display: flex;
   justify-content: space-evenly;
-  margin: 7rem 2rem;
+  margin: 3rem 2rem;
   column-gap: clamp(1.13rem, calc(-1.09rem + 11.09vw), 7.5rem);
   flex-wrap: wrap;
   @media (max-width: 600px) {
