@@ -9,14 +9,24 @@ header {
   margin-right: auto;
 }
 
-.privacy-link {
-  font-family: var(--secondary-font);
-  font-size: var(--v-small);
-  font-weight: var(--bold);
-  color: var(--c-white);
-  border-bottom: var(--c-reddish-orange) 0.13rem solid;
-  text-decoration: none;
-  @media (max-width: 420px) {
-    display: none;
+.twitter-container {
+  display: flex;
+  align-items: center;
+}
+
+.twitter-cta-text {
+  font-size: var(--small);
+  @media (max-width: 600px) {
+    font-size: var(--m-vsmall);
   }
+}
+
+.twitter-link {
+  text-decoration: none;
+  border-bottom: var(--c-white) 0.01rem solid;
+  color: var(--c-white);
+}
+
+.twitter-image {
+  margin-right: 1rem;
 }

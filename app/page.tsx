@@ -108,39 +108,30 @@ export default function Home() {
 
           <div className="right-container">
             <div className="text-container">
-              Lorem ipsum dolor sit amet consectetur. Dictum tortor platea
-              feugiat aliquam amet. Urna integer tempor eget tristique porttitor
-              nunc viverra. Hac elementum donec integer scelerisque sed faucibus
-              morbi. Integer volutpat purus sit nunc vel augue morbi libero.
-              Pretium at venenatis vivamus et. Pretium auctor elementum enim vel
-              libero enim feugiat sagittis. Turpis aliquet fusce dui facilisis
-              pulvinar ut ut tristique velit. Augue quis quis dolor vulputate
-              turpis nisi adipiscing egestas. Est vel auctor bibendum vulputate
-              non viverra nunc feugiat. Facilisi morbi cursus laoreet neque
-              cursus mauris amet. Ac tempus consequat dignissim velit
-              pellentesque velit in tempus. Sapien amet lectus amet.
-            </div>
-
-            <div className="twitter-container">
-              <Image
-                className="twitter-image"
-                src="twitter-icon.svg"
-                width={50}
-                height={50}
-                alt="Twitter"
-              />
-
-              <p className="twitter-cta-text">
-                Follow us on{" "}
-                <a
-                  href="https://twitter.com/ukcharitycamp"
-                  className="twitter-link"
-                >
-                  Twitter
-                </a>{" "}
-                for updates
+              <p>
+                {" "}
+                UKCharityCamp is an unconference: a space for conversations,
+                not-for-profit, free to participants, open to anyone, 1st come,
+                1st served, via open ticketing. We&apos;re expecting a range of
+                third sector folk to attend; from trustees to people at smaller
+                charities who have to “do digital” as well as everything else to
+                heads of digital at larger organisations. Diverse experiences
+                make for a better event.
               </p>
+
+              <p>
+                The agenda will be worked out on the day, by the people who are
+                there. You can look forward to folk bringing their most burning
+                questions, and to have real trouble working out which session to
+                join. We&apos;d expect sessions on recruiting for digital roles,
+                what good practise with AI looks like, where to focus if you
+                have to do it all, working with digital partners, and loads
+                more.
+              </p>
+
+              <p>It&apos;ll be a genuinely inspiring day.</p>
             </div>
+
             <a
               className="privacy"
               href="https://www.dxw.com/privacy-statement/"

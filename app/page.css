@@ -16,7 +16,7 @@
 
 .date-heading {
   font-weight: var(--bold);
-  font-size: var(--medium);
+  font-size: var(--large);
   width: 8ch;
   line-height: 2.8rem;
   margin: 0;
@@ -30,7 +30,7 @@
 
 .sign-up-label {
   font-family: var(--secondary-font);
-  font-size: 1.9rem;
+  font-size: var(--medium);
   font-style: normal;
   font-weight: 500;
 
@@ -75,31 +75,15 @@
   }
 }
 
+
 .website-url-pot {
   display: none;
-}
-
-.twitter-cta-text {
-  font-size: var(--small);
-  @media (max-width: 600px) {
-    font-size: var(--m-vsmall);
-  }
-}
-
-.twitter-link {
-  text-decoration: none;
-  border-bottom: var(--c-white) 0.01rem solid;
-  color: var(--c-white);
-}
-
-.twitter-image {
-  margin-right: 2rem;
 }
 
 .main-container {
   display: flex;
   justify-content: space-evenly;
-  margin: 7rem 2rem;
+  margin: 3rem 2rem;
   column-gap: clamp(1.13rem, calc(-1.09rem + 11.09vw), 7.5rem);
   flex-wrap: wrap;
   @media (max-width: 600px) {
@@ -108,7 +92,7 @@
 }
 
 .right-container {
-  margin-top: 7rem;
+  margin-top: 2.8rem;
 
   @media (max-width: 600px) {
     width: 100%;
@@ -135,7 +119,13 @@
 
   @media (max-width: 600px) {
     line-height: 2rem;
-    width: 28ch;
+    width: 100%;
+  }
+}
+
+.text-container p {
+  @media (max-width: 600px) {
+    margin-right: 4rem;
   }
 }
 .location-container {
@@ -148,16 +138,6 @@
   flex-direction: column;
   align-items: center;
   row-gap: 1.1rem;
-}
-
-.twitter-container {
-  display: flex;
-  align-items: center;
-  margin-top: 8rem;
-
-  @media (max-width: 600px) {
-    margin-top: 2rem;
-  }
 }
 
 .circle::before {
