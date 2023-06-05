@@ -1,6 +1,6 @@
 .sponsor-container {
   width: 100%;
-
+  margin-top: 2.5rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -21,13 +21,12 @@
 }
 
 .sponsor-body-container {
-  width: 470px;
-  height: 358px;
+  min-height: 305px;
   background-color: var(--c-white);
   margin: 0;
-  padding-top: 1rem;
-
+  padding-top: 2rem;
   width: 100%;
+  border-radius: 0px 0px 40px 0px;
 }
 
 .sponsor-first-row {
