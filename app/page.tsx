@@ -4,7 +4,7 @@ import { FormEvent, useState } from "react";
 
 import "./page.css";
 import PageHeader from "./components/PageHeader/PageHeader";
-
+import Sponsors from "./components/Sponsors/Sponsors";
 export default function Home() {
   const [email, setEmail] = useState("");
   // URL variables will not store real URL's - they will be used to catch inputs from bots and have realistic form names to mask bot detecting functionality
@@ -131,6 +131,7 @@ export default function Home() {
 
               <p>It&apos;ll be a genuinely inspiring day.</p>
             </div>
+            <Sponsors />
 
             <a
               className="privacy"
