@@ -85,26 +85,6 @@ export default function Home() {
               <p>It&apos;ll be a genuinely inspiring day.</p>
             </div>
 
-            <div className="twitter-container">
-              <Image
-                className="twitter-image"
-                src="twitter-icon.svg"
-                width={50}
-                height={50}
-                alt="Twitter"
-              />
-
-              <p className="twitter-cta-text">
-                Follow us on{" "}
-                <a
-                  href="https://twitter.com/ukcharitycamp"
-                  className="twitter-link"
-                >
-                  Twitter
-                </a>{" "}
-                for updates
-              </p>
-            </div>
             <a
               className="privacy"
               href="https://www.dxw.com/privacy-statement/"
