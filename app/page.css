@@ -75,6 +75,11 @@
   }
 }
 
+
+.website-url-pot {
+  display: none;
+}
+
 .main-container {
   display: flex;
   justify-content: space-evenly;
