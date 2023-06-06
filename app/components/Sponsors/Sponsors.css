@@ -1,5 +1,5 @@
 .sponsor-container {
-  width: 100%;
+  width: 95%;
   margin-top: 2.5rem;
   display: flex;
   flex-direction: column;
@@ -21,10 +21,10 @@
 }
 
 .sponsor-body-container {
-  min-height: 305px;
+  min-height: 290px;
   background-color: var(--c-white);
   margin: 0;
-  padding-top: 2rem;
+  padding-top: 1rem;
   width: 100%;
   border-radius: 0px 0px 40px 0px;
 }
@@ -32,8 +32,8 @@
 .sponsor-first-row {
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 0.5rem;
-  margin-top: 0.5rem;
+
+  margin: 0.5rem 1.5rem 0 1.5rem;
 }
 
 .sponsor-first-row-element {
@@ -48,13 +48,12 @@
 }
 
 .sponsor-grid {
-  display: grid;
-
-  grid-template-columns: repeat(auto-fill, 80px);
-  grid-gap: 20px;
-
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  margin: 1.5rem 1rem;
+  gap: 16px;
+  max-width: 470px;
+  margin: 1.5rem 0;
 }
 
 .sponsor-grid-element {
