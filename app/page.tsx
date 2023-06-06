@@ -9,18 +9,30 @@ export default function Home() {
   const [email, setEmail] = useState("");
   // URL variables will not store real URL's - they will be used to catch inputs from bots and have realistic form names to mask bot detecting functionality
   const [url, setURL] = useState("");
+  const [submissionMessage, setSubmissionMessage] = useState("");
   const submitHandler = async () => {
-    const response = await fetch("/api/email", {
+    const myRequest = new Request("/api/email", {
       method: "POST",
       body: JSON.stringify({ email }),
       headers: {
         "Content-Type": "application/json",
       },
     });
+
+    await fetch(myRequest).then((response) => {
+      if (response.status >= 400) {
+        setSubmissionMessage(
+          "Sorry something went wrong... please try again later"
+        );
+      } else {
+        setSubmissionMessage("Success! You're officially signed up!");
+      }
+    });
   };
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    setSubmissionMessage("");
     if (url !== "") {
       //resets the input field so that it is blank
       setURL("");
@@ -103,6 +115,7 @@ export default function Home() {
 
                 <button className="sign-up-button">Submit</button>
               </div>
+              <p>{submissionMessage}</p>
             </form>
           </div>
 
