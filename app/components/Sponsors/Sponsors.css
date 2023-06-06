@@ -58,7 +58,13 @@
   margin-top: 1.5rem;
 
   @media (max-width: 600px) {
-    grid-template-columns: repeat(3, 67px);
+    grid-template-columns: repeat(3, 75px);
+    margin-top: 1rem;
+  }
+
+  @media (max-width: 400px) {
+    grid-template-columns: repeat(3, 65px);
+    margin-top: 1rem;
   }
 }
 
@@ -67,9 +73,9 @@
   height: 37px;
   position: relative;
 
-  @media (max-width: 600px) {
-    width: 63px;
-    height: 27px;
+  @media (max-width: 500px) {
+    width: 65px;
+    height: 29px;
   }
 }
 
@@ -80,5 +86,12 @@
 
   .sponsor-grid-element:nth-last-child(2):nth-child(4n + 1) {
     grid-column-end: 3;
+  }
+}
+
+@media (max-width: 600px) {
+  .sponsor-grid-element:last-child {
+    grid-column-end: 3;
+    display: flex;
   }
 }

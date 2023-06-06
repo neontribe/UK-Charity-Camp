@@ -132,14 +132,13 @@ export default function Home() {
               <p>It&apos;ll be a genuinely inspiring day.</p>
             </div>
             <Sponsors />
-
-            <a
-              className="privacy"
-              href="https://www.dxw.com/privacy-statement/"
-            >
-              Privacy Policy
-            </a>
           </div>
+        </div>
+
+        <div className="privacy-container">
+          <a className="privacy" href="https://www.dxw.com/privacy-statement/">
+            Privacy Policy
+          </a>
         </div>
       </main>
     </>
