@@ -4,7 +4,7 @@ import { FormEvent, useState } from "react";
 
 import "./page.css";
 import PageHeader from "./components/PageHeader/PageHeader";
-
+import Sponsors from "./components/Sponsors/Sponsors";
 export default function Home() {
   const [email, setEmail] = useState("");
   // URL variables will not store real URL's - they will be used to catch inputs from bots and have realistic form names to mask bot detecting functionality
@@ -104,6 +104,27 @@ export default function Home() {
                 <button className="sign-up-button">Submit</button>
               </div>
             </form>
+
+            <div className="twitter-mobile-container">
+              <Image
+                className="twitter-image"
+                src="twitter-icon.svg"
+                width={35}
+                height={35}
+                alt="Twitter"
+              />
+
+              <p className="twitter-cta-text">
+                Follow us on{" "}
+                <a
+                  href="https://twitter.com/ukcharitycamp"
+                  className="twitter-link"
+                >
+                  Twitter
+                </a>{" "}
+                for updates
+              </p>
+            </div>
           </div>
 
           <div className="right-container">
@@ -131,14 +152,14 @@ export default function Home() {
 
               <p>It&apos;ll be a genuinely inspiring day.</p>
             </div>
-
-            <a
-              className="privacy"
-              href="https://www.dxw.com/privacy-statement/"
-            >
-              Privacy Policy
-            </a>
+            <Sponsors />
           </div>
+        </div>
+
+        <div className="privacy-container">
+          <a className="privacy" href="https://www.dxw.com/privacy-statement/">
+            Privacy Policy
+          </a>
         </div>
       </main>
     </>
