@@ -8,25 +8,3 @@ header {
   margin-left: 0;
   margin-right: auto;
 }
-
-.twitter-container {
-  display: flex;
-  align-items: center;
-}
-
-.twitter-cta-text {
-  font-size: var(--small);
-  @media (max-width: 600px) {
-    font-size: var(--m-vsmall);
-  }
-}
-
-.twitter-link {
-  text-decoration: none;
-  border-bottom: var(--c-white) 0.01rem solid;
-  color: var(--c-white);
-}
-
-.twitter-image {
-  margin-right: 1rem;
-}
