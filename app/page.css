@@ -50,14 +50,21 @@
   width: 25%;
   align-self: baseline;
   font-weight: var(--bolder);
+  cursor: pointer;
+
   @media (max-width: 600px) {
     width: 33%;
     font-size: var(--small);
   }
 }
+
+.sign-up-button:hover {
+  color: var(--c-white);
+  transition: 0.5s;
+}
 .submit-container {
   height: 3.1rem;
-  margin-top: 1.5rem;
+  margin-top: 0.8rem;
   width: 100%;
   display: flex;
 }
@@ -123,7 +130,7 @@
 }
 
 .text-container p {
-  line-height: 1.5;
+  line-height: 1.3;
 }
 .location-container {
   display: flex;
@@ -169,6 +176,10 @@
   color: var(--c-white);
   border-bottom: var(--c-white) 1px solid;
   text-decoration: none;
+}
+
+.sign-up-form {
+  margin-top: 2rem;
 }
 
 .privacy-container {
