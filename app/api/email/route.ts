@@ -38,6 +38,7 @@ export async function POST(req: Request) {
 
     return NextResponse.json(response);
   } catch (e) {
+    console.log(`Authentication ${e}`);
     return NextResponse.json(
       { error: "Internal Server Error" },
       { status: 500 }
