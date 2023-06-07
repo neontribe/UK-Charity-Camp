@@ -3,11 +3,6 @@
   font-size: var(--v-large);
   width: 11ch;
   line-height: 5.4rem;
-
-  @media (max-width: 600px) {
-    font-size: var(--m-v-large);
-    line-height: 3rem;
-  }
 }
 
 .main-heading-red-letters {
@@ -21,11 +16,6 @@
   line-height: 2.8rem;
   margin: 0;
   margin-left: 1.4rem;
-
-  @media (max-width: 600px) {
-    font-size: var(--m-medium);
-    line-height: 2rem;
-  }
 }
 
 .sign-up-label {
@@ -33,11 +23,6 @@
   font-size: var(--medium);
   font-style: normal;
   font-weight: 500;
-
-  @media (max-width: 600px) {
-    font-size: var(--m-small);
-    line-height: 2rem;
-  }
 }
 
 .sign-up-button {
@@ -51,11 +36,6 @@
   align-self: baseline;
   font-weight: var(--bolder);
   cursor: pointer;
-
-  @media (max-width: 600px) {
-    width: 33%;
-    font-size: var(--small);
-  }
 }
 
 .sign-up-button:hover {
@@ -76,10 +56,6 @@
   width: 69%;
   border: none;
   padding-left: 1.5rem;
-
-  @media (max-width: 600px) {
-    padding-left: 0.5rem;
-  }
 }
 
 .website-url-pot {
@@ -92,28 +68,10 @@
   margin: 3rem 2rem 0 2rem;
   column-gap: clamp(1.13rem, calc(-1.09rem + 11.09vw), 7.5rem);
   flex-wrap: wrap;
-  @media (max-width: 600px) {
-    margin: 2rem 0.5rem 0 2rem;
-  }
 }
 
 .right-container {
   margin-top: 2.8rem;
-
-  @media (max-width: 600px) {
-    width: 100%;
-    margin-left: 1.2rem;
-    margin-right: 1.2rem;
-    margin-top: 1rem;
-  }
-}
-
-.left-container {
-  @media (max-width: 600px) {
-    width: 100%;
-    margin-left: 1.2rem;
-    margin-right: 1.2rem;
-  }
 }
 
 .text-container {
@@ -122,11 +80,6 @@
   font-size: var(--v-small);
   font-weight: var(--light);
   line-height: 20px;
-
-  @media (max-width: 600px) {
-    line-height: 2rem;
-    width: 100%;
-  }
 }
 
 .text-container p {
@@ -188,28 +141,16 @@
 }
 
 .twitter-container {
-  display: flex;
-  align-items: center;
-
-  @media (max-width: 1000px) {
-    display: none;
-  }
+  display: none;
 }
 .twitter-mobile-container {
-  display: none;
-
-  @media (max-width: 1000px) {
-    display: flex;
-    margin-top: 2rem;
-    align-items: center;
-  }
+  display: flex;
+  margin-top: 2rem;
+  align-items: center;
 }
 
 .twitter-cta-text {
   font-size: var(--small);
-  @media (max-width: 600px) {
-    font-size: var(--m-vsmall);
-  }
 }
 
 .twitter-link {
@@ -220,4 +161,66 @@
 
 .twitter-image {
   margin-right: 1rem;
+}
+
+@media (min-width: 1000px) {
+  .twitter-container {
+    display: flex;
+    align-items: center;
+  }
+  .twitter-mobile-container {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .main-container {
+    margin: 2rem 0.5rem 0 2rem;
+  }
+
+  .right-container {
+    width: 100%;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    margin-top: 1rem;
+  }
+
+  .left-container {
+    width: 100%;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+  }
+
+  .text-container {
+    line-height: 2rem;
+    width: 100%;
+  }
+
+  .twitter-cta-text {
+    font-size: var(--m-vsmall);
+  }
+
+  .main-heading {
+    font-size: var(--m-v-large);
+    line-height: 3rem;
+  }
+
+  .date-heading {
+    font-size: var(--m-medium);
+    line-height: 2rem;
+  }
+
+  .sign-up-label {
+    font-size: var(--m-small);
+    line-height: 2rem;
+  }
+
+  .sign-up-button {
+    width: 33%;
+    font-size: var(--small);
+  }
+
+  .sign-up-input-field {
+    padding-left: 0.5rem;
+  }
 }
