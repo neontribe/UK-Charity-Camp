@@ -124,9 +124,6 @@
 
 .text-container p {
   line-height: 1.5;
-  @media (max-width: 600px) {
-    margin-right: 4rem;
-  }
 }
 .location-container {
   display: flex;
@@ -142,49 +139,27 @@
 
 .circle::before {
   content: "";
-  width: 10vh;
-  height: 10vh;
+  width: 61px;
+  height: 61px;
   background: var(--c-reddish-orange);
   border-radius: 50%;
   position: fixed;
   right: -17px;
-  bottom: 42px;
+  bottom: 256px;
+  z-index: -1;
 }
 
 .circle::after {
   content: "";
-  width: 7vh;
-  height: 7vh;
+  width: 41px;
+  height: 41px;
   background: var(--c-reddish-orange);
   border-radius: 50%;
   position: fixed;
-  right: 70px;
-  bottom: -20px;
-}
-
-@media (max-width: 1000px) {
-  .circle::before {
-    content: "";
-    width: 6vh;
-    height: 6vh;
-    background: var(--c-reddish-orange);
-    border-radius: 50%;
-    position: fixed;
-    right: -17px;
-    bottom: 256px;
-  }
-
-  .circle::after {
-    content: "";
-    width: 4vh;
-    height: 4vh;
-    background: var(--c-reddish-orange);
-    border-radius: 50%;
-    position: fixed;
-    right: 40px;
-    bottom: 221px;
-    display: block;
-  }
+  right: 40px;
+  bottom: 221px;
+  display: block;
+  z-index: -1;
 }
 
 .privacy {
