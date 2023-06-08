@@ -51,7 +51,7 @@ export default function Home() {
           <div className="left-container">
             <h1 className="main-heading">
               {" "}
-              Third sector <span className="main-heading-red-letters">Un</span>
+              Third Sector <span className="main-heading-red-letters">Un</span>
               conference{" "}
             </h1>
 

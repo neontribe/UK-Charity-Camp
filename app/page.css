@@ -36,7 +36,6 @@
   align-self: baseline;
   font-weight: var(--bolder);
   cursor: pointer;
-
 }
 
 .sign-up-button:hover {
@@ -53,6 +52,7 @@
   margin-top: 0.8rem;
   width: 100%;
   display: flex;
+  max-width: 42ch;
 }
 
 .sign-up-input-field {
@@ -71,13 +71,21 @@
 .main-container {
   display: flex;
   justify-content: space-evenly;
-  margin: 3rem 2rem 0 2rem;
-  column-gap: clamp(1.13rem, calc(-1.09rem + 11.09vw), 7.5rem);
+  margin: 3rem 2rem 0 5rem;
+  column-gap: clamp(1.13rem, calc(-1.09rem + 11.09vw), 4.5rem);
   flex-wrap: wrap;
+}
+.left-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 55ch;
+  flex: 1;
 }
 
 .right-container {
   margin-top: 2.8rem;
+  max-width: 55ch;
+  flex: 1;
 }
 
 .text-container {
@@ -189,12 +197,16 @@
     margin-left: 1.2rem;
     margin-right: 1.2rem;
     margin-top: 1rem;
+    flex: 1;
+    max-width: 55ch;
   }
 
   .left-container {
     width: 100%;
     margin-left: 1.2rem;
     margin-right: 1.2rem;
+    max-width: 55ch;
+    flex: 1;
   }
 
   .text-container {
@@ -228,5 +240,6 @@
 
   .sign-up-input-field {
     padding-left: 0.5rem;
+    font-size: var(--m-vsmall);
   }
 }
