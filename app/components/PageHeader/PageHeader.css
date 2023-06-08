@@ -1,0 +1,10 @@
+header {
+  display: flex;
+  align-items: center;
+  margin: 1.5rem clamp(0.5rem, calc(-3rem + 11.09vw), 4rem);
+}
+
+.logo-container {
+  margin-left: 0;
+  margin-right: auto;
+}
