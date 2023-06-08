@@ -36,6 +36,12 @@
   align-self: baseline;
   font-weight: var(--bolder);
   cursor: pointer;
+
+}
+
+.sign-up-button:hover {
+  color: var(--c-white);
+  transition: 0.5s;
 }
 
 .sign-up-button:hover {
