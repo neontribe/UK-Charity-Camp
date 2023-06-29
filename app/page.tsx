@@ -79,7 +79,7 @@ export default function Home() {
                 />
               </div>
               <div>
-                <h2 className="date-heading">DD/MM/YY Birmingham </h2>
+                <h2 className="date-heading">30/11/2023 Birmingham </h2>
               </div>
             </div>
 
@@ -145,8 +145,8 @@ export default function Home() {
               <p>
                 {" "}
                 UKCharityCamp is an unconference: a space for conversations,
-                not-for-profit, free to participants, open to anyone, 1st come,
-                1st served, via open ticketing. We&apos;re expecting a range of
+                not-for-profit, free to participants, open to anyone, with 
+                travel bursaries for those who need them. We&apos;re expecting a range of
                 third sector folk to attend; from trustees to people at smaller
                 charities who have to “do digital” as well as everything else to
                 heads of digital at larger organisations. Diverse experiences
