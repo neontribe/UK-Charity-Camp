@@ -29,21 +29,18 @@
   border-radius: 0px 0px 40px 0px;
 }
 
-.sponsor-first-row {
+.sponsor-large {
   display: flex;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 28px;
 
-  margin: 0.5rem 1.5rem 0 1.5rem;
-}
-
-.sponsor-first-row-element {
-  width: 150px;
-  height: 67px;
-  position: relative;
-
-  @media (max-width: 600px) {
-    width: 109px;
-    height: 48px;
+  max-width: 470px;
+  margin-top: 1.3rem;
+  margin-bottom: 0.4rem;
+  @media (max-width: 360px) {
+    gap: 25px;
   }
 }
 
@@ -51,13 +48,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 16px;
+  column-gap: 20px;
+  row-gap: 2px;
   max-width: 470px;
-  margin: 1.5rem 0;
-}
+  margin: 1rem 0.2rem;
+  align-items: center;
 
-.sponsor-grid-element {
-  width: 82px;
-  height: 37px;
-  position: relative;
+  @media (max-width: 360px) {
+    gap: 25px;
+  }
 }
