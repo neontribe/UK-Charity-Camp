@@ -1,6 +1,6 @@
 .sponsor-container {
   width: 95%;
-  margin-top: 3.5rem;
+  margin-top: 2.5rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -39,9 +39,6 @@
   max-width: 470px;
   margin-top: 1.3rem;
   margin-bottom: 0.4rem;
-  @media (max-width: 360px) {
-    gap: 25px;
-  }
 }
 
 .sponsor-grid {
@@ -53,8 +50,11 @@
   max-width: 470px;
   margin: 0.5rem 0.2rem;
   align-items: center;
+}
 
-  @media (max-width: 360px) {
+@media (max-width: 360px) {
+  .sponsor-grid,
+  .sponsor-large {
     gap: 25px;
   }
 }
