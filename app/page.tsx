@@ -51,7 +51,7 @@ export default function Home() {
           <div className="left-container">
             <h1 className="main-heading">
               {" "}
-              Third sector <span className="main-heading-red-letters">Un</span>
+              Third Sector <span className="main-heading-red-letters">Un</span>
               conference{" "}
             </h1>
 
@@ -145,8 +145,8 @@ export default function Home() {
               <p>
                 {" "}
                 UKCharityCamp is an unconference: a space for conversations,
-                not-for-profit, free to participants, open to anyone, 1st come,
-                1st served, via open ticketing. We&apos;re expecting a range of
+                not-for-profit, free to participants, open to anyone, with 
+                travel bursaries for those who need them. We&apos;re expecting a range of
                 third sector folk to attend; from trustees to people at smaller
                 charities who have to “do digital” as well as everything else to
                 heads of digital at larger organisations. Diverse experiences
