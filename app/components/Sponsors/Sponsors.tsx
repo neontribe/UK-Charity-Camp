@@ -10,7 +10,7 @@ const Sponsors = () => {
       <div className="sponsor-body-container">
         <div className="sponsor-large">
           <div>
-            <a href="https://www.neontribe.co.uk/">
+            <a target="_blank" href="https://www.neontribe.co.uk/">
               <Image
                 width={153}
                 height={55}
@@ -20,7 +20,7 @@ const Sponsors = () => {
             </a>
           </div>
           <div>
-            <a href="https://www.promo.cymru/">
+            <a target="_blank" href="https://www.promo.cymru/">
               <Image
                 width={153}
                 height={85}
@@ -30,7 +30,7 @@ const Sponsors = () => {
             </a>
           </div>
           <div>
-            <a href="https://ukgovcamp.com">
+            <a target="_blank" href="https://www.ukgovcamp.com">
               <Image
                 width={170}
                 height={66}
@@ -42,7 +42,7 @@ const Sponsors = () => {
         </div>
         <div className="sponsor-grid">
           <div>
-            <a href="https://www.thecatalyst.org.uk/">
+            <a target="_blank" href="https://www.thecatalyst.org.uk/">
               <Image
                 width={115}
                 height={35}
@@ -52,7 +52,7 @@ const Sponsors = () => {
             </a>
           </div>
           <div>
-            <a href="https://www.dovetail.network/">
+            <a target="_blank" href="https://www.dovetail.network/">
               <Image
                 width={85}
                 height={18}
@@ -62,7 +62,7 @@ const Sponsors = () => {
             </a>
           </div>
           <div>
-            <a href="https://www.techforgoodorganisers.uk/">
+            <a target="_blank" href="https://www.techforgoodorganisers.uk/">
               <Image
                 width={135}
                 height={33}
@@ -72,7 +72,7 @@ const Sponsors = () => {
             </a>
           </div>
           <div>
-            <a href="https://thirdsectorlab.co.uk/">
+            <a target="_blank" href="https://thirdsectorlab.co.uk/">
               <Image
                 width={97}
                 height={57}
