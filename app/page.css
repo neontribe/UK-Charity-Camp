@@ -71,8 +71,9 @@
 .main-container {
   display: flex;
   justify-content: space-evenly;
-  margin: 3rem 2rem 0 5rem;
-  column-gap: clamp(1.13rem, calc(-1.09rem + 11.09vw), 4.5rem);
+
+  margin: 2.5rem 2rem 0 2rem;
+  column-gap: clamp(1.13rem, calc(-1.09rem + 11.09vw), 7.5rem);
   flex-wrap: wrap;
 }
 .left-container {
