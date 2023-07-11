@@ -4,7 +4,7 @@ import "./variables.css";
 export const metadata = {
   title: "UK Charity Camp",
   description:
-    "An unconference event that allows charities from accross the sector to come together",
+    "An unconference event for the UK charity sector.",
 };
 
 export default function RootLayout({
