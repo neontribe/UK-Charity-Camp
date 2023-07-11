@@ -51,7 +51,7 @@
   column-gap: 20px;
   row-gap: 2px;
   max-width: 470px;
-  margin: 1rem 0.2rem;
+  margin: 0.5rem 0.2rem;
   align-items: center;
 
   @media (max-width: 360px) {
