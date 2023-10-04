@@ -12,11 +12,18 @@
 .date-heading {
   font-weight: var(--bold);
   font-size: var(--large);
-  width: 8ch;
+  width: 10ch;
   line-height: 2.8rem;
   margin: 0;
   margin-left: 1.4rem;
 }
+
+.date-heading a {
+  text-decoration: none;
+  border-bottom: var(--c-white) 0.01rem solid;
+  color: var(--c-white);
+}
+
 
 .sign-up-label {
   font-family: var(--secondary-font);
@@ -25,35 +32,46 @@
   font-weight: 500;
 }
 
-.sign-up-button {
-  background-color: var(--c-reddish-orange);
-  color: var(--c-dark-grey);
-  border: none;
-  font-size: var(--small);
-  font-family: var(--primary-font);
-  height: 100%;
-  width: 25%;
+.tickets {
+  background-color: var(--c-white);
+  color: var(--c-royal-blue);
+  border: solid 4px var(--c-reddish-orange);
+  font-size: var(--medium);
   align-self: baseline;
   font-weight: var(--bolder);
   cursor: pointer;
+  padding: 10px;
+  text-decoration: none;
+  margin-top: 15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: var(--c-royal-blue);
+  width: 80%;
 }
+
+.tickets svg {
+  width: 0.75em;
+  width: 1cap;
+  height: 0.75em;
+  height: 1cap;
+  margin-inline-start: 1rem;
+  fill: inherit;
+}
+
+.tickets:hover {
+  background-color: var(--c-royal-blue);
+  color: var(--c-white);
+  fill: var(--c-white);
+  border-radius: 2px;
+}
+
 
 .sign-up-button:hover {
   color: var(--c-white);
   transition: 0.5s;
 }
 
-.sign-up-button:hover {
-  color: var(--c-white);
-  transition: 0.5s;
-}
-.submit-container {
-  height: 3.1rem;
-  margin-top: 0.8rem;
-  width: 100%;
-  display: flex;
-  max-width: 42ch;
-}
 
 .sign-up-input-field {
   font-size: var(--v-small);
@@ -64,9 +82,6 @@
   padding-left: 1.5rem;
 }
 
-.website-url-pot {
-  display: none;
-}
 
 .main-container {
   display: flex;
@@ -216,7 +231,7 @@
   }
 
   .twitter-cta-text {
-    font-size: var(--m-vsmall);
+    font-size: var(--m-small);
   }
 
   .main-heading {
@@ -229,18 +244,4 @@
     line-height: 2rem;
   }
 
-  .sign-up-label {
-    font-size: var(--m-small);
-    line-height: 2rem;
-  }
-
-  .sign-up-button {
-    width: 33%;
-    font-size: var(--small);
-  }
-
-  .sign-up-input-field {
-    padding-left: 0.5rem;
-    font-size: var(--m-vsmall);
-  }
 }
