@@ -82,6 +82,16 @@
   padding-left: 1.5rem;
 }
 
+.code-of-conduct-link {
+  color: var(--c-white);
+  margin-top: 1rem;
+  font-size:var(--small);
+}
+
+.code-of-conduct-link:hover {
+  color:var(--c-reddish-orange);
+}
+
 
 .main-container {
   display: flex;
