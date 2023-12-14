@@ -170,9 +170,11 @@ export default function Home() {
 
               <p>It was a genuinely inspiring day.</p>
               <blockquote className="quote">
-               <p>You come away with things you can action. Tangible things.</p> 
+                <p>
+                  You come away with things you can action. Tangible things.
+                </p>
                 <footer className="quote-author">
-                  - Head of digital development, <cite> national charity </cite>
+                  - Head of digital development, national charity
                 </footer>
               </blockquote>
 
