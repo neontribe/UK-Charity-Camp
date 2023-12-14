@@ -143,27 +143,43 @@ export default function Home() {
           <div className="right-container">
             <div className="text-container">
               <p>
-                {" "}
                 UKCharityCamp is an unconference: a space for conversations,
-                not-for-profit, free to participants, open to anyone, with 
-                travel bursaries for those who need them. We&apos;re expecting a range of
-                third sector folk to attend; from trustees to people at smaller
-                charities who have to “do digital” as well as everything else to
-                heads of digital at larger organisations. Diverse experiences
-                make for a better event.
+                not-for-profit, free to participants, open to anyone, with
+                travel bursaries for those who need them.
               </p>
 
               <p>
-                The agenda will be worked out on the day, by the people who are
-                there. You can look forward to folk bringing their most burning
-                questions, and to have real trouble working out which session to
-                join. We&apos;d expect sessions on recruiting for digital roles,
-                what good practise with AI looks like, where to focus if you
-                have to do it all, working with digital partners, and loads
-                more.
+                A range of third sector folk attended in 2023; from trustees to
+                people at smaller charities who have to “do digital” as well as
+                everything else to heads of digital at larger organisations.
+                Diverse experiences made for a better event.
               </p>
 
-              <p>It&apos;ll be a genuinely inspiring day.</p>
+              <p>
+                <p>
+                  The{" "}
+                  <a
+                    className="link"
+                    href="https://docs.google.com/spreadsheets/d/1Ar4fC1wVAhYSz2gYn61pvh3OD2TPfT4oh8rLg4PAH7w/edit#gid=0"
+                  >
+                    agenda was worked out at the event
+                  </a>
+                  , by the people who were there.
+                </p>
+              </p>
+
+              <p>It was a genuinely inspiring day.</p>
+              <blockquote className="quote">
+               <p>You come away with things you can action. Tangible things.</p> 
+                <footer className="quote-author">
+                  - Head of digital development, <cite> national charity </cite>
+                </footer>
+              </blockquote>
+
+              <p>
+                If you want to hear about plans for the future, drop us your
+                email address.
+              </p>
             </div>
             <Sponsors />
           </div>

@@ -73,7 +73,7 @@
   justify-content: space-evenly;
 
   margin: 2.5rem 2rem 0 2rem;
-  column-gap: clamp(1.13rem, calc(-1.09rem + 11.09vw), 7.5rem);
+  column-gap: clamp(1.13rem, calc(-1.09rem + 11.09vw), 3.5rem);
   flex-wrap: wrap;
 }
 .left-container {
@@ -90,7 +90,7 @@
 }
 
 .text-container {
-  width: 55ch;
+  width: inherit;
   font-family: var(--secondary-font);
   font-size: var(--v-small);
   font-weight: var(--light);
@@ -176,6 +176,29 @@
 
 .twitter-image {
   margin-right: 1rem;
+}
+
+.link {
+  color: var(--c-white);
+}
+
+.quote {
+  background-color: var(--c-white);
+  color: var(--c-royal-blue);
+  font-size: var(--large);
+  padding: 1.5rem;
+  line-height: 1.2;
+
+}
+
+.quote p {
+  margin:0;
+}
+
+.quote-author {
+  font-size: var(--v-small);
+  margin-top: 1.5rem;
+  color: var(--c-dark-grey);
 }
 
 @media (min-width: 1000px) {
