@@ -1,10 +1,47 @@
 "use client";
 import Image from "next/image";
+import { FormEvent, useState } from "react";
 
 import "./page.css";
 import PageHeader from "./components/PageHeader/PageHeader";
 import Sponsors from "./components/Sponsors/Sponsors";
 export default function Home() {
+  const [email, setEmail] = useState("");
+  // URL variables will not store real URL's - they will be used to catch inputs from bots and have realistic form names to mask bot detecting functionality
+  const [url, setURL] = useState("");
+  const [submissionMessage, setSubmissionMessage] = useState("");
+  const submitHandler = async () => {
+    const myRequest = new Request("/api/email", {
+      method: "POST",
+      body: JSON.stringify({ email }),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+
+    await fetch(myRequest).then((response) => {
+      if (response.status >= 400) {
+        setSubmissionMessage(
+          "Sorry something went wrong... please try again later"
+        );
+      } else {
+        setSubmissionMessage("Success! You're officially signed up!");
+      }
+    });
+  };
+
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setSubmissionMessage("");
+    if (url !== "") {
+      //resets the input field so that it is blank
+      setURL("");
+      return;
+    }
+    submitHandler();
+    //resets the input field so that it is blank
+    setEmail("");
+  };
 
   return (
     <>
@@ -42,17 +79,44 @@ export default function Home() {
                 />
               </div>
               <div>
-                <h2 className="date-heading">30/11/2023 <a href="https://thestudio.co.uk/venues/birmingham/">The Studio, Birmingham</a>
-                </h2>
+                <h2 className="date-heading">30/11/2023 Birmingham </h2>
               </div>
             </div>
 
-            <a className="tickets" href="https://www.eventbrite.co.uk/e/ukcharitycamp-tickets-685611792327">
-              Get tickets
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                <path d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z"/>
-              </svg>
-            </a>
+            <form onSubmit={handleSubmit} className="sign-up-form">
+              <label htmlFor="email-signup" className="sign-up-label">
+                Sign up for more information
+              </label>
+              <div className="submit-container">
+                <input
+                  className="sign-up-input-field"
+                  id="email-signup"
+                  name="email-signup"
+                  type="email"
+                  placeholder="example@mail.com"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                ></input>
+                {/* a form field to catch bots, it does not collect any data */}
+                <div className="website-url-pot">
+                  <label htmlFor="website-url">Your website</label>
+                  <input
+                    type="text"
+                    id="website-url"
+                    name="website-url"
+                    value={url}
+                    tabIndex={-1}
+                    onChange={(e) => setURL(e.target.value)}
+                    autoComplete="off"
+                    placeholder="not for users, please skip"
+                  />
+                </div>
+                {/* a form field to catch bots, it does not collect user data */}
+
+                <button className="sign-up-button">Submit</button>
+              </div>
+              <p>{submissionMessage}</p>
+            </form>
 
             <div className="twitter-mobile-container">
               <Image
@@ -79,6 +143,7 @@ export default function Home() {
           <div className="right-container">
             <div className="text-container">
               <p>
+                {" "}
                 UKCharityCamp is an unconference: a space for conversations,
                 not-for-profit, free to participants, open to anyone, with 
                 travel bursaries for those who need them. We&apos;re expecting a range of
