@@ -133,7 +133,7 @@ export default function Home() {
                   href="https://twitter.com/ukcharitycamp"
                   className="twitter-link"
                 >
-                  Twitter
+                  X
                 </a>{" "}
                 for updates
               </p>

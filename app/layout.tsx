@@ -4,7 +4,7 @@ import "./variables.css";
 export const metadata = {
   title: "UK Charity Camp",
   description:
-    "An unconference event that means charities accross the sector come together, share and learn.",
+    "An unconference event that means charities across the sector come together, share and learn.",
 
 };
 
