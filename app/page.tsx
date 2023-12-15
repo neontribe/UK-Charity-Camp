@@ -79,7 +79,7 @@ export default function Home() {
                 />
               </div>
               <div>
-                <h2 className="date-heading">30/11/2023 Birmingham </h2>
+                <h2 className="date-heading">??/??/2023 Birmingham </h2>
               </div>
             </div>
 
@@ -177,11 +177,6 @@ export default function Home() {
                   - Head of digital development, national charity
                 </footer>
               </blockquote>
-
-              <p>
-                If you want to hear about plans for the future, drop us your
-                email address.
-              </p>
             </div>
             <Sponsors />
           </div>
