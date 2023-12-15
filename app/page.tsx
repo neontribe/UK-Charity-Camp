@@ -177,11 +177,6 @@ export default function Home() {
                   - Head of digital development, national charity
                 </footer>
               </blockquote>
-
-              <p>
-                If you want to hear about plans for the future, drop us your
-                email address.
-              </p>
             </div>
             <Sponsors />
           </div>
