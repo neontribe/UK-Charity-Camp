@@ -5,6 +5,7 @@ export const metadata = {
   title: "UK Charity Camp",
   description:
     "An unconference event that means charities accross the sector come together, share and learn.",
+
 };
 
 export default function RootLayout({
