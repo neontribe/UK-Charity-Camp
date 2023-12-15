@@ -79,7 +79,7 @@ export default function Home() {
                 />
               </div>
               <div>
-                <h2 className="date-heading">30/11/2023 Birmingham </h2>
+                <h2 className="date-heading">??/??/2023 Birmingham </h2>
               </div>
             </div>
 
