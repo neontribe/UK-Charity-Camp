@@ -79,7 +79,7 @@ export default function Home() {
                 />
               </div>
               <div>
-                <h2 className="date-heading">??/??/2024 Birmingham </h2>
+                <h2 className="date-heading">28/11/2024 Birmingham </h2>
               </div>
             </div>
 
@@ -127,7 +127,8 @@ export default function Home() {
                 alt="Twitter"
               />
 
-              <p className="twitter-cta-text">
+           
+                <p className="twitter-cta-text">
                 Follow us on{" "}
                 <a
                   href="https://twitter.com/ukcharitycamp"
@@ -136,7 +137,8 @@ export default function Home() {
                   X
                 </a>{" "}
                 for updates
-              </p>
+                </p>
+       
             </div>
           </div>
 
@@ -155,7 +157,7 @@ export default function Home() {
                 Diverse experiences made for a better event.
               </p>
 
-              <p>
+       
                 <p>
                   The{" "}
                   <a
@@ -166,7 +168,7 @@ export default function Home() {
                   </a>
                   , by the people who were there.
                 </p>
-              </p>
+         
 
               <p>It was a genuinely inspiring day.</p>
               <blockquote className="quote">

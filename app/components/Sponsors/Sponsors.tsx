@@ -5,7 +5,7 @@ const Sponsors = () => {
   return (
     <div className="sponsor-container">
       <div className="sponsor-heading-container">
-        <p className="sponsor-heading-text">Thank you to our sponsors</p>
+        <p className="sponsor-heading-text">Thank you to our 2023 sponsors</p>
       </div>
       <div className="sponsor-body-container">
         <div className="sponsor-large">
