@@ -20,7 +20,7 @@
 }
 
 .sponsor-body-container {
-  min-height: 290px;
+  min-height: 240px;
   background-color: var(--c-white);
   margin: 0;
   padding-top: 1rem;
@@ -29,15 +29,16 @@
 }
 
 .sponsor-large {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 0.6fr));
+  grid-row-gap: 1.6rem;
   justify-content: center;
-  align-items: center;
-  column-gap: 28px;
+  padding: 2.5rem;
+}
 
-  max-width: 470px;
-  margin-top: 1.3rem;
-  margin-bottom: 0.4rem;
+.sponsor-large div {
+  display: flex;
+  justify-content: center;
 }
 
 .sponsor-grid {
