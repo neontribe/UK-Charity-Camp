@@ -23,22 +23,18 @@
   min-height: 240px;
   background-color: var(--c-white);
   margin: 0;
-  padding-top: 1rem;
+  padding: 2rem 0;
   width: 100%;
   border-radius: 0px 0px 40px 0px;
 }
 
 .sponsor-large {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 0.6fr));
-  grid-row-gap: 1.6rem;
-  justify-content: center;
-  padding: 2.5rem;
-}
-
-.sponsor-large div {
   display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 5px;
   justify-content: center;
+  padding: 1rem 2.5rem;
 }
 
 .sponsor-grid {
@@ -53,8 +49,7 @@
 }
 
 @media (max-width: 360px) {
-  .sponsor-grid,
-  .sponsor-large {
+  .sponsor-grid, .sponsor-large {
     gap: 25px;
   }
 }

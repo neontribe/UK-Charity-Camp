@@ -19,7 +19,7 @@ const Sponsors = () => {
               />
             </a>
           </div>
-       
+
           <div>
             <a target="_blank" href="https://www.ukgovcamp.com">
               <Image
@@ -32,6 +32,19 @@ const Sponsors = () => {
           </div>
 
           <div>
+            <a target="_blank" href="https://basis.co.uk/">
+              <Image
+                width={170}
+                height={66}
+                alt="Thank you to Basis for sponsoring this event"
+                src="/basis.png"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div className="sponsor-grid">
+          <div>
             <a target="_blank" href="https://thirdsectorlab.co.uk/">
               <Image
                 width={150}
@@ -42,23 +55,17 @@ const Sponsors = () => {
             </a>
           </div>
 
-
-
           <div>
             <a target="_blank" href="https://nexergroup.com/">
               <Image
-                width={150}
-                height={35}
+                width={100}
+                height={20}
                 alt="Thank you to Nexer for sponsoring this event"
                 src="/nexer.png"
               />
             </a>
           </div>
-
-
-
         </div>
-      
       </div>
     </div>
   );
