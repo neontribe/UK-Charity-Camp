@@ -51,6 +51,16 @@ const Sponsors = () => {
               />
             </a>
           </div>
+          <div>
+            <a target="_blank" href="https://public.digital/">
+              <Image
+                width={190}
+                height={40}
+                alt="Thank you to Public Digital for sponsoring this event"
+                src="/public-digital.png"
+              />
+            </a>
+          </div>
         </div>
 
         <div className="sponsor-grid">
