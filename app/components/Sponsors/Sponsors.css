@@ -31,10 +31,9 @@
 .sponsor-large {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 20px;
-  row-gap: 5px;
+  gap: 20px;
   justify-content: center;
-  padding: 1rem 2.5rem;
+  padding: 1.5rem 2.5rem;
 }
 
 .sponsor-grid {
@@ -49,7 +48,8 @@
 }
 
 @media (max-width: 360px) {
-  .sponsor-grid, .sponsor-large {
+  .sponsor-grid,
+  .sponsor-large {
     gap: 25px;
   }
 }
