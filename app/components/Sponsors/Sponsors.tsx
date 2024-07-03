@@ -23,8 +23,8 @@ const Sponsors = () => {
           <div>
             <a target="_blank" href="https://www.ukgovcamp.com">
               <Image
-                width={170}
-                height={66}
+                width={163}
+                height={65}
                 alt="Thank you to UKGovCamp for sponsoring this event"
                 src="/ukgovchamp.png"
               />
@@ -34,10 +34,30 @@ const Sponsors = () => {
           <div>
             <a target="_blank" href="https://basis.co.uk/">
               <Image
-                width={170}
-                height={66}
+                width={163}
+                height={65}
                 alt="Thank you to Basis for sponsoring this event"
                 src="/basis.png"
+              />
+            </a>
+          </div>
+          <div>
+            <a target="_blank" href="https://torchbox.com/">
+              <Image
+                width={153}
+                height={55}
+                alt="Thank you to Torchbox for sponsoring this event"
+                src="/torchbox.png"
+              />
+            </a>
+          </div>
+          <div>
+            <a target="_blank" href="https://public.digital/">
+              <Image
+                width={190}
+                height={40}
+                alt="Thank you to Public Digital for sponsoring this event"
+                src="/public-digital.png"
               />
             </a>
           </div>
