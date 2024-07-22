@@ -106,6 +106,9 @@ const Sponsors = () => {
                 height={35}
                 alt="Thank you to Promo Cymru for sponsoring this event"
                 src="/promo-cymru.png"
+                     />
+            </a>
+          </div>
 
           <div>
             <a target="_blank" href="https://www.dataorchard.org.uk/">
