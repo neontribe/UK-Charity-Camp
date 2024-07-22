@@ -99,8 +99,6 @@ const Sponsors = () => {
             </a>
           </div>
 
-
-
           <div>
             <a target="_blank" href="https://www.promo.cymru/">
               <Image
@@ -108,6 +106,14 @@ const Sponsors = () => {
                 height={35}
                 alt="Thank you to Promo Cymru for sponsoring this event"
                 src="/promo-cymru.png"
+
+          <div>
+            <a target="_blank" href="https://www.dataorchard.org.uk/">
+              <Image
+                width={75}
+                height={55}
+                alt="Thank you to Data Orchard for sponsoring this event"
+                src="/data-orchard.png"
               />
             </a>
           </div>
