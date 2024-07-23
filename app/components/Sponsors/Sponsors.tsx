@@ -19,10 +19,11 @@ const Sponsors = () => {
               />
             </a>
           </div>
+          
           <div>
             <a target="_blank" href="https://www.ukgovcamp.com">
               <Image
-                width={163}
+                width={160}
                 height={65}
                 alt="Thank you to UKGovCamp for sponsoring this event"
                 src="/ukgovchamp.png"
@@ -30,16 +31,6 @@ const Sponsors = () => {
             </a>
           </div>
 
-          <div>
-            <a target="_blank" href="https://basis.co.uk/">
-              <Image
-                width={163}
-                height={65}
-                alt="Thank you to Basis for sponsoring this event"
-                src="/basis.png"
-              />
-            </a>
-          </div>
           <div>
             <a target="_blank" href="https://torchbox.com/">
               <Image
@@ -53,10 +44,21 @@ const Sponsors = () => {
           <div>
             <a target="_blank" href="https://public.digital/">
               <Image
-                width={190}
-                height={40}
+                width={210}
+                height={70}
                 alt="Thank you to Public Digital for sponsoring this event"
                 src="/public-digital.png"
+              />
+            </a>
+          </div>
+
+          <div>
+            <a target="_blank" href="https://basis.co.uk/">
+              <Image
+                width={145}
+                height={65}
+                alt="Thank you to Basis for sponsoring this event"
+                src="/basis.png"
               />
             </a>
           </div>
@@ -93,6 +95,28 @@ const Sponsors = () => {
                 height={20}
                 alt="Thank you to Nexer for sponsoring this event"
                 src="/nexer.png"
+              />
+            </a>
+          </div>
+
+          <div>
+            <a target="_blank" href="https://www.promo.cymru/">
+              <Image
+                width={110}
+                height={35}
+                alt="Thank you to Promo Cymru for sponsoring this event"
+                src="/promo-cymru.png"
+                     />
+            </a>
+          </div>
+
+          <div>
+            <a target="_blank" href="https://www.dataorchard.org.uk/">
+              <Image
+                width={75}
+                height={55}
+                alt="Thank you to Data Orchard for sponsoring this event"
+                src="/data-orchard.png"
               />
             </a>
           </div>
