@@ -19,7 +19,7 @@ const Sponsors = () => {
               />
             </a>
           </div>
-          
+
           <div>
             <a target="_blank" href="https://www.ukgovcamp.com">
               <Image
@@ -65,8 +65,7 @@ const Sponsors = () => {
         </div>
 
         <div className="sponsor-grid">
-
-        <div>
+          <div>
             <a target="_blank" href=" https://www.thinknpc.org/">
               <Image
                 width={90}
@@ -87,7 +86,6 @@ const Sponsors = () => {
             </a>
           </div>
 
-
           <div>
             <a target="_blank" href="https://nexergroup.com/">
               <Image
@@ -106,7 +104,7 @@ const Sponsors = () => {
                 height={35}
                 alt="Thank you to Promo Cymru for sponsoring this event"
                 src="/promo-cymru.png"
-                     />
+              />
             </a>
           </div>
 
@@ -117,6 +115,45 @@ const Sponsors = () => {
                 height={55}
                 alt="Thank you to Data Orchard for sponsoring this event"
                 src="/data-orchard.png"
+              />
+            </a>
+          </div>
+
+          <div>
+            <a target="_blank" href="https://www.wearecast.org.uk/">
+              <Image
+                width={85}
+                height={25}
+                alt="Thank you to Cast for sponsoring this event"
+                src="/cast.png"
+              />
+            </a>
+          </div>
+
+          <div>
+            <a
+              target="_blank"
+              href="https://www.wearecast.org.uk/our-work/programmes-and-initiatives/digital-leads-network/"
+            >
+              <Image
+                width={100}
+                height={65}
+                alt="Thank you to Digital Leads Network for sponsoring this event"
+                src="/digital-leads.png"
+              />
+            </a>
+          </div>
+
+          <div>
+            <a
+              target="_blank"
+              href="https://www.designforjoy.co.uk/"
+            >
+              <Image
+                width={60}
+                height={60}
+                alt="Thank you to Design For Joy for sponsoring this event"
+                src="/joy.jpg"
               />
             </a>
           </div>

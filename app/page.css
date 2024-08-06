@@ -24,7 +24,6 @@
   color: var(--c-white);
 }
 
-
 .sign-up-label {
   font-family: var(--secondary-font);
   font-size: var(--medium);
@@ -66,12 +65,10 @@
   border-radius: 2px;
 }
 
-
 .sign-up-button:hover {
   color: var(--c-white);
   transition: 0.5s;
 }
-
 
 .sign-up-input-field {
   font-size: var(--v-small);
@@ -81,7 +78,6 @@
   border: none;
   padding-left: 1.5rem;
 }
-
 
 .main-container {
   display: flex;
@@ -203,11 +199,10 @@
   font-size: var(--large);
   padding: 1.5rem;
   line-height: 1.2;
-
 }
 
 .quote p {
-  margin:0;
+  margin: 0;
 }
 
 .quote-author {
@@ -266,5 +261,10 @@
     font-size: var(--m-medium);
     line-height: 2rem;
   }
+}
 
+@media (max-width: 360px) {
+  .quote {
+    margin: 0;
+  }
 }
