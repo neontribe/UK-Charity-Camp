@@ -166,29 +166,40 @@
   margin: 1.5rem clamp(0.5rem, calc(-3rem + 11.09vw), 4rem);
 }
 
-.twitter-container {
+.social-media-container {
   display: none;
 }
-.twitter-mobile-container {
+.social-media-mobile-container {
   display: flex;
   margin-top: 2rem;
   align-items: center;
 }
 
-.twitter-cta-text {
+.social-media-cta-text {
   font-size: var(--small);
 }
 
-.twitter-link {
+.social-media-link {
   text-decoration: none;
   border-bottom: var(--c-white) 0.01rem solid;
   color: var(--c-white);
 }
 
-.twitter-image {
+
+.social-media-link:hover {
+  border-bottom: var(--c-reddish-orange) 0.01rem solid;
+  color: var(--c-reddish-orange);
+  transition: 0.3s;
+}
+
+.social-media-image {
   margin-right: 1rem;
 }
 
+.social-media-image:active {
+  outline: dashed white;
+
+}
 .link {
   color: var(--c-white);
 }
@@ -212,11 +223,11 @@
 }
 
 @media (min-width: 1000px) {
-  .twitter-container {
+  .social-media-container {
     display: flex;
     align-items: center;
   }
-  .twitter-mobile-container {
+  .social-media-mobile-container {
     display: none;
   }
 }
@@ -248,7 +259,7 @@
     width: 100%;
   }
 
-  .twitter-cta-text {
+  .social-media-cta-text {
     font-size: var(--m-small);
   }
 
