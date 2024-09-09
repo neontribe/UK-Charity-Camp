@@ -13,19 +13,28 @@ const PageHeader = () => {
         />
       </div>
 
-      <div className="twitter-container">
-        <Image
-          className="twitter-image"
-          src="twitter-icon.svg"
-          width={35}
-          height={35}
-          alt="Twitter"
-        />
+      <div className="social-media-container">
+        <a
+          href="https://bsky.app/profile/ukcharitycamp.bsky.social"
+          target="_blank"
+        >
+          <Image
+            className="social-media-image"
+            src="blue-sky-logo.svg"
+            width={40}
+            height={35}
+            alt="Navigates to Neontribe's BlueSky page"
+          />
+        </a>
 
-        <p className="twitter-cta-text">
+        <p className="social-media-cta-text">
           Follow us on{" "}
-          <a href="https://twitter.com/ukcharitycamp" className="twitter-link">
-            Twitter
+          <a
+            href="https://bsky.app/profile/ukcharitycamp.bsky.social"
+            target="_blank"
+            className="social-media-link"
+          >
+            BlueSky
           </a>{" "}
           for updates
         </p>
