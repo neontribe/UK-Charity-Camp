@@ -12,8 +12,8 @@ const Sponsors = () => {
           <div>
             <a target="_blank" href="https://www.neontribe.co.uk/">
               <Image
-                width={153}
-                height={55}
+                width={173}
+                height={60}
                 alt="Thank you to Neontribe for sponsoring this event"
                 src="/neontribe.png"
               />
@@ -23,18 +23,20 @@ const Sponsors = () => {
           <div>
             <a target="_blank" href="https://www.ukgovcamp.com">
               <Image
-                width={160}
-                height={65}
+                width={195}
+                height={70}
                 alt="Thank you to UKGovCamp for sponsoring this event"
                 src="/ukgovchamp.png"
               />
             </a>
           </div>
+          </div>
 
+          <div className="sponsor-large">
           <div>
             <a target="_blank" href="https://torchbox.com/">
               <Image
-                width={153}
+                width={145}
                 height={55}
                 alt="Thank you to Torchbox for sponsoring this event"
                 src="/torchbox.png"
@@ -44,10 +46,10 @@ const Sponsors = () => {
           <div>
             <a target="_blank" href="https://public.digital/">
               <Image
-                width={210}
+                width={193}
                 height={70}
                 alt="Thank you to Public Digital for sponsoring this event"
-                src="/public-digital.png"
+                src="/public-digital.svg"
               />
             </a>
           </div>
@@ -59,6 +61,17 @@ const Sponsors = () => {
                 height={65}
                 alt="Thank you to Basis for sponsoring this event"
                 src="/basis.png"
+              />
+            </a>
+          </div>
+
+          <div>
+            <a target="_blank" href="https://poteris.co.uk/">
+              <Image
+                width={145}
+                height={65}
+                alt="Thank you to Poteris for sponsoring this event"
+                src="/poteris.svg"
               />
             </a>
           </div>
