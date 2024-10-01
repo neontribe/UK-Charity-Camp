@@ -64,7 +64,6 @@ export default function Home() {
               <a
                 href="https://bsky.app/profile/ukcharitycamp.bsky.social"
                 target="_blank"
-           
               >
                 <Image
                   className="social-media-image"
@@ -92,30 +91,41 @@ export default function Home() {
           <div className="right-container">
             <div className="text-container">
               <p>
-                UKCharityCamp is an unconference: a space for conversations,
-                not-for-profit, free to participants, open to anyone, with
-                travel bursaries for those who need them.
+                UKCharityCamp is an unconference for people who want to explore
+                how to use digital to help the third sector do more for their
+                communities. It&apos;s a space for conversations, not-for-profit,
+                free to participants, open to anyone, with travel bursaries for
+                those who need them.
               </p>
 
               <p>
                 A range of third sector folk attended in 2023; from trustees to
                 people at smaller charities who have to “do digital” as well as
-                everything else to heads of digital at larger organisations.
-                Diverse experiences made for a better event.
+                everything else to heads of digital at larger organisations. We
+                did our best to make it a welcome and inclusive place for
+                everyone from experts to complete beginners. Diverse experiences
+                made for a better event.
               </p>
 
               <p>
-                The{" "}
+                As UKCharityCamp is an unconference, the {''}
                 <a
                   className="link"
+                  target="_blank"
                   href="https://docs.google.com/spreadsheets/d/1Ar4fC1wVAhYSz2gYn61pvh3OD2TPfT4oh8rLg4PAH7w/edit#gid=0"
+
                 >
-                  agenda was worked out at the event
+                  agenda was worked out at the event {'  '}
                 </a>
-                , by the people who were there.
+                by the people who were there. Folks came along with their
+                questions, challenges, ideas and experiences to share. It was a
+                genuinely inspiring day, so we&apos;re doing it again.
               </p>
 
-              <p>It was a genuinely inspiring day.</p>
+              <p>
+                Grab a ticket if you&apos;d like to join us in Birmingham on
+                Thursday 28 November 2024
+              </p>
               <blockquote className="quote">
                 <p>
                   You come away with things you can action. Tangible things.

@@ -18,11 +18,6 @@
   margin-left: 1.4rem;
 }
 
-.date-heading a {
-  text-decoration: none;
-  border-bottom: var(--c-white) 0.01rem solid;
-  color: var(--c-white);
-}
 
 .sign-up-label {
   font-family: var(--secondary-font);
@@ -35,6 +30,7 @@
   background-color: var(--c-white);
   color: var(--c-royal-blue);
   border: solid 4px var(--c-reddish-orange);
+  border-radius: 40px;
   font-size: var(--medium);
   align-self: baseline;
   font-weight: var(--bolder);
@@ -46,7 +42,8 @@
   align-items: center;
   justify-content: center;
   fill: var(--c-royal-blue);
-  width: 80%;
+  width: 100%;
+  max-width:350px;
 }
 
 .tickets svg {
@@ -54,15 +51,16 @@
   width: 1cap;
   height: 0.75em;
   height: 1cap;
-  margin-inline-start: 1rem;
+  margin-inline-start: 0.6rem;
   fill: inherit;
 }
 
 .tickets:hover {
-  background-color: var(--c-royal-blue);
+  background-color: var(--c-reddish-orange);
   color: var(--c-white);
   fill: var(--c-white);
-  border-radius: 2px;
+  border-color: var(--c-white);
+
 }
 
 .sign-up-button:hover {
@@ -179,18 +177,9 @@
   font-size: var(--small);
 }
 
-.social-media-link {
-  text-decoration: none;
-  border-bottom: var(--c-white) 0.01rem solid;
-  color: var(--c-white);
-}
 
 
-.social-media-link:hover {
-  border-bottom: var(--c-reddish-orange) 0.01rem solid;
-  color: var(--c-reddish-orange);
-  transition: 0.3s;
-}
+
 
 .social-media-image {
   margin-right: 1rem;
@@ -200,9 +189,7 @@
   outline: dashed white;
 
 }
-.link {
-  color: var(--c-white);
-}
+ 
 
 .quote {
   background-color: var(--c-white);

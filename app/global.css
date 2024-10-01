@@ -4,4 +4,11 @@ body {
   color: var(--c-white);
 }
 
+a {
+  color: var(--c-white);
+}
 
+a:hover {
+  color: var(--c-reddish-orange);
+  transition: 0.3s;
+}
