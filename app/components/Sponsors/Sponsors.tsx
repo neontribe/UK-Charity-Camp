@@ -100,7 +100,7 @@ const Sponsors = () => {
           </div>
 
           <div>
-            <a target="_blank" href="https://nexergroup.com/">
+            <a target="_blank" href="https://www.nexerdigital.com/">
               <Image
                 width={100}
                 height={20}
