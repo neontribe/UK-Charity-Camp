@@ -30,9 +30,9 @@ const Sponsors = () => {
               />
             </a>
           </div>
-          </div>
+        </div>
 
-          <div className="sponsor-large">
+        <div className="sponsor-large">
           <div>
             <a target="_blank" href="https://torchbox.com/">
               <Image
@@ -158,15 +158,33 @@ const Sponsors = () => {
           </div>
 
           <div>
-            <a
-              target="_blank"
-              href="https://www.designforjoy.co.uk/"
-            >
+            <a target="_blank" href="https://www.designforjoy.co.uk/">
               <Image
                 width={60}
                 height={60}
                 alt="Thank you to Design For Joy for sponsoring this event"
                 src="/joy.jpg"
+              />
+            </a>
+          </div>
+
+          <div>
+            <a target="_blank" href="https://www.charitychangecollective.uk/">
+              <Image
+                width={130}
+                height={70}
+                alt="Thank you to Charity Change Collective for sponsoring this event"
+                src="/ccc.png"
+              />
+            </a>
+          </div>
+          <div>
+            <a target="_blank" href="https://teamtilt.co.uk/">
+              <Image
+                width={70}
+                height={70}
+                alt="Thank you to Tilt for sponsoring this event"
+                src="/tilt.png"
               />
             </a>
           </div>
