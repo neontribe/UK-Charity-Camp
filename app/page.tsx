@@ -94,7 +94,7 @@ export default function Home() {
                 UKCharityCamp is an unconference for people who want to explore
                 how to use digital to help the third sector do more for their
                 communities. It&apos;s a space for conversations, not-for-profit,
-                free to participants, open to anyone, with travel bursaries for
+                free to participants, open to anyone - with blocks of tickets for larger and smaller charities, and for the folk who work with them, and travel bursaries for
                 those who need them.
               </p>
 
