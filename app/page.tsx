@@ -14,7 +14,7 @@ export default function Home() {
     eventDate: null,
     venueUrl: null,
     venueName: null,
-    ticketsAvailable: false,
+    ticketingHref: null,
   };
   return (
     <>
@@ -58,10 +58,10 @@ export default function Home() {
               />
             </div>
 
-            {event.ticketsAvailable ? (
+            { event.ticketingHref ? (
               <HyperlinkButton
                 buttonText="Get Tickets"
-                href="https://www.eventbrite.co.uk/e/ukcharitycamp-2024-tickets-940310844047"
+                href={event.ticketingHref}
               />
             ) : (
               <SignupForm />
