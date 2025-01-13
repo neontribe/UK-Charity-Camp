@@ -4,7 +4,18 @@ import Image from "next/image";
 import "./page.css";
 import PageHeader from "./components/PageHeader/PageHeader";
 import Sponsors from "./components/Sponsors/Sponsors";
+import VenueHeading from "@/app/components/VenueHeading/VenueHeading";
+import HyperlinkButton from "@/app/components/HyperlinkButton/HyperlinkButton";
+import SignupForm from "@/app/components/SignupForm/SignupForm";
+
 export default function Home() {
+  /* fill and set this object to control the page */
+  const event = {
+    eventDate: null,
+    venueUrl: null,
+    venueName: null,
+    ticketsAvailable: false,
+  };
   return (
     <>
       <PageHeader />
@@ -40,26 +51,21 @@ export default function Home() {
                   alt="Another small circle part of the map pin icon"
                 />
               </div>
-              <div>
-                <h2 className="date-heading">
-                  28/11/2024{" "}
-                  <a href="https://thestudio.co.uk/venues/birmingham/">
-                    The Studio, Birmingham
-                  </a>
-                </h2>
-              </div>
+              <VenueHeading
+                date={event.eventDate}
+                venueUrl={event.venueUrl}
+                venueName={event.venueName}
+              />
             </div>
 
-            <a
-              className="tickets"
-              href="https://www.eventbrite.co.uk/e/ukcharitycamp-2024-tickets-940310844047"
-            >
-              Get tickets
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                <path d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
-              </svg>
-            </a>
-
+            {event.ticketsAvailable ? (
+              <HyperlinkButton
+                buttonText="Get Tickets"
+                href="https://www.eventbrite.co.uk/e/ukcharitycamp-2024-tickets-940310844047"
+              />
+            ) : (
+              <SignupForm />
+            )}
             <div className="social-media-mobile-container">
               <a
                 href="https://bsky.app/profile/ukcharitycamp.bsky.social"
@@ -93,9 +99,11 @@ export default function Home() {
               <p>
                 UKCharityCamp is an unconference for people who want to explore
                 how to use digital to help the third sector do more for their
-                communities. It&apos;s a space for conversations, not-for-profit,
-                free to participants, open to anyone - with blocks of tickets for larger and smaller charities, and for the folk who work with them, and travel bursaries for
-                those who need them.
+                communities. It&apos;s a space for conversations,
+                not-for-profit, free to participants, open to anyone - with
+                blocks of tickets for larger and smaller charities, and for the
+                folk who work with them, and travel bursaries for those who need
+                them.
               </p>
 
               <p>
@@ -108,14 +116,13 @@ export default function Home() {
               </p>
 
               <p>
-                As UKCharityCamp is an unconference, the {''}
+                As UKCharityCamp is an unconference, the {""}
                 <a
                   className="link"
                   target="_blank"
                   href="https://docs.google.com/spreadsheets/d/1Ar4fC1wVAhYSz2gYn61pvh3OD2TPfT4oh8rLg4PAH7w/edit#gid=0"
-
                 >
-                  agenda was worked out at the event {'  '}
+                  agenda was worked out at the event {"  "}
                 </a>
                 by the people who were there. Folks came along with their
                 questions, challenges, ideas and experiences to share. It was a

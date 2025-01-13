@@ -1,0 +1,44 @@
+.sign-up-label {
+  font-family: var(--secondary-font), sans-serif;
+  font-size: var(--medium);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.sign-up-button {
+  background-color: var(--c-reddish-orange);
+  color: var(--c-dark-grey);
+  border: none;
+  font-size: var(--small);
+  font-family: var(--primary-font), sans-serif;
+  height: 100%;
+  width: 25%;
+  align-self: baseline;
+  font-weight: var(--bolder);
+  cursor: pointer;
+}
+
+.sign-up-button:hover {
+  color: var(--c-white);
+  transition: 0.5s;
+}
+
+.submit-container {
+  height: 3.1rem;
+  margin-top: 0.8rem;
+  width: 100%;
+  display: flex;
+  max-width: 42ch;
+}
+
+.sign-up-input-field {
+  font-size: var(--v-small);
+  height: 100%;
+  width: 69%;
+  border: none;
+  padding: 0 0 0 1.5rem;
+}
+
+.website-url-pot {
+  display: none;
+}
