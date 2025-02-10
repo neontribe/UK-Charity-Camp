@@ -130,8 +130,8 @@ export default function Home() {
               </p>
 
               <p>
-                Let us know your email if you&apos;d like to join us in Birmingham on
-                Thursday 13 November 2025
+                Sign up for more information if you&apos;d like to join us in Birmingham on
+                Thursday 13 November 2025, and we'll let you know when tickets are available.
               </p>
               <blockquote className="quote">
                 <p>
