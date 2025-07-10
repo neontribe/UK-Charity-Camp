@@ -107,7 +107,7 @@ export default function Home() {
               </p>
 
               <p>
-                A range of third sector folk attended in 2024; from trustees to
+                A range of third sector folk attended in 2023 and 2024; from trustees to
                 people at smaller charities who have to “do digital” as well as
                 everything else to heads of digital at larger organisations. We
                 did our best to make it a welcome and inclusive place for
