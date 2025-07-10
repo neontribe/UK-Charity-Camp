@@ -130,6 +130,19 @@ export default function Home() {
               </p>
 
               <p>
+              It'll be at                 <a
+                  className="link"
+                  target="_blank"
+                  href="https://thestudio.co.uk/venues/birmingham/"
+                >
+                  The Studio {"  "}
+                </a>, in Birmingham.
+              </p>
+
+              <p>
+              It'll start at 10am, on the 13th of November, 2025.
+              </p>
+              
               Tickets are available {""}
                 <a
                   className="link"
