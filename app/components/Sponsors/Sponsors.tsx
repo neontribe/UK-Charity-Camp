@@ -5,7 +5,7 @@ const Sponsors = () => {
   return (
     <div className="sponsor-container">
       <div className="sponsor-heading-container">
-        <p className="sponsor-heading-text">Thank you to our 2024 sponsors</p>
+        <p className="sponsor-heading-text">Thank you to our 2025 sponsors</p>
       </div>
       <div className="sponsor-body-container">
         <div className="sponsor-large">
@@ -43,7 +43,8 @@ const Sponsors = () => {
               />
             </a>
           </div>
-          <div>
+
+          <! -- <div>
             <a target="_blank" href="https://public.digital/">
               <Image
                 width={193}
@@ -52,9 +53,9 @@ const Sponsors = () => {
                 src="/public-digital.svg"
               />
             </a>
-          </div>
+          </div> --> 
 
-          <div>
+          <! -- <div>
             <a target="_blank" href="https://basis.co.uk/">
               <Image
                 width={145}
@@ -63,9 +64,9 @@ const Sponsors = () => {
                 src="/basis.png"
               />
             </a>
-          </div>
+          </div> --> 
 
-          <div>
+          <! -- <div>
             <a target="_blank" href="https://poteris.co.uk/">
               <Image
                 width={145}
@@ -74,20 +75,10 @@ const Sponsors = () => {
                 src="/poteris.svg"
               />
             </a>
-          </div>
+          </div> --> 
         </div>
 
-        <div className="sponsor-grid">
-          <div>
-            <a target="_blank" href=" https://www.thinknpc.org/">
-              <Image
-                width={90}
-                height={45}
-                alt="Thank you to NPC for sponsoring this event"
-                src="/NPC.jpg"
-              />
-            </a>
-          </div>
+        <! -- <div className="sponsor-grid">
           <div>
             <a target="_blank" href="https://thirdsectorlab.co.uk/">
               <Image
@@ -97,9 +88,9 @@ const Sponsors = () => {
                 src="/thirdsectorlab.svg"
               />
             </a>
-          </div>
-
-          <div>
+          </div> --> 
+ 
+          <! -- <div>
             <a target="_blank" href="https://www.nexerdigital.com/">
               <Image
                 width={100}
@@ -108,7 +99,7 @@ const Sponsors = () => {
                 src="/nexer.png"
               />
             </a>
-          </div>
+          </div> --> 
 
           <div>
             <a target="_blank" href="https://www.promo.cymru/">
@@ -121,18 +112,8 @@ const Sponsors = () => {
             </a>
           </div>
 
-          <div>
-            <a target="_blank" href="https://www.dataorchard.org.uk/">
-              <Image
-                width={75}
-                height={55}
-                alt="Thank you to Data Orchard for sponsoring this event"
-                src="/data-orchard.png"
-              />
-            </a>
-          </div>
 
-          <div>
+          <! -- <div>
             <a target="_blank" href="https://www.wearecast.org.uk/">
               <Image
                 width={85}
@@ -141,9 +122,9 @@ const Sponsors = () => {
                 src="/cast.png"
               />
             </a>
-          </div>
+          </div> --> 
 
-          <div>
+          <! -- <div>
             <a
               target="_blank"
               href="https://www.wearecast.org.uk/our-work/programmes-and-initiatives/digital-leads-network/"
@@ -155,7 +136,7 @@ const Sponsors = () => {
                 src="/digital-leads.png"
               />
             </a>
-          </div>
+          </div> --> 
 
           <div>
             <a target="_blank" href="https://www.designforjoy.co.uk/">
