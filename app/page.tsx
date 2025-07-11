@@ -117,20 +117,17 @@ export default function Home() {
 
               <p>
                 As UKCharityCamp is an unconference, the {""}
-                <a
-                  className="link"
+                <a className="link"
                   target="_blank"
                   href="https://docs.google.com/spreadsheets/d/1Ar4fC1wVAhYSz2gYn61pvh3OD2TPfT4oh8rLg4PAH7w/edit#gid=0"
-                >
-                  agenda was worked out at the event {"  "}
-                </a>
+                >agenda was worked out at the event {"  "}</a>
                 by the people who were there. Folks came along with their
                 questions, challenges, ideas and experiences to share. It was a
                 genuinely inspiring day, so we&apos;re doing it again.
               </p>
 
               <p>
-              It'll be at                 <a
+              It&apos;ll be at <a
                   className="link"
                   target="_blank"
                   href="https://thestudio.co.uk/venues/birmingham/"
@@ -140,9 +137,9 @@ export default function Home() {
               </p>
 
               <p>
-              It'll start at 10am, on the 13th of November, 2025.
+              It&apos;ll start at 10am, on the 13th of November, 2025.
               </p>
-              
+
               Tickets are available {""}
                 <a
                   className="link"
@@ -151,7 +148,7 @@ export default function Home() {
                 >
                   now. {"  "}
                 </a>
-              </p>
+              <p />
               <blockquote className="quote">
                 <p>
                   You come away with things you can action. Tangible things.
