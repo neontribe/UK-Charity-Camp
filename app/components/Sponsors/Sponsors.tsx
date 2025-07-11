@@ -5,7 +5,7 @@ const Sponsors = () => {
   return (
     <div className="sponsor-container">
       <div className="sponsor-heading-container">
-        <p className="sponsor-heading-text">Thank you to our 2024 sponsors</p>
+        <p className="sponsor-heading-text">Thank you to our 2025 sponsors</p>
       </div>
       <div className="sponsor-body-container">
         <div className="sponsor-large">
@@ -43,6 +43,8 @@ const Sponsors = () => {
               />
             </a>
           </div>
+
+{/*
           <div>
             <a target="_blank" href="https://public.digital/">
               <Image
@@ -53,7 +55,9 @@ const Sponsors = () => {
               />
             </a>
           </div>
+*/}
 
+{/*
           <div>
             <a target="_blank" href="https://basis.co.uk/">
               <Image
@@ -64,7 +68,9 @@ const Sponsors = () => {
               />
             </a>
           </div>
+*/}
 
+{/*
           <div>
             <a target="_blank" href="https://poteris.co.uk/">
               <Image
@@ -75,19 +81,12 @@ const Sponsors = () => {
               />
             </a>
           </div>
+*/}
         </div>
 
+
         <div className="sponsor-grid">
-          <div>
-            <a target="_blank" href=" https://www.thinknpc.org/">
-              <Image
-                width={90}
-                height={45}
-                alt="Thank you to NPC for sponsoring this event"
-                src="/NPC.jpg"
-              />
-            </a>
-          </div>
+{/*
           <div>
             <a target="_blank" href="https://thirdsectorlab.co.uk/">
               <Image
@@ -98,7 +97,8 @@ const Sponsors = () => {
               />
             </a>
           </div>
-
+*/}
+{/*
           <div>
             <a target="_blank" href="https://www.nexerdigital.com/">
               <Image
@@ -109,6 +109,7 @@ const Sponsors = () => {
               />
             </a>
           </div>
+*/}
 
           <div>
             <a target="_blank" href="https://www.promo.cymru/">
@@ -121,17 +122,7 @@ const Sponsors = () => {
             </a>
           </div>
 
-          <div>
-            <a target="_blank" href="https://www.dataorchard.org.uk/">
-              <Image
-                width={75}
-                height={55}
-                alt="Thank you to Data Orchard for sponsoring this event"
-                src="/data-orchard.png"
-              />
-            </a>
-          </div>
-
+{/*
           <div>
             <a target="_blank" href="https://www.wearecast.org.uk/">
               <Image
@@ -142,7 +133,8 @@ const Sponsors = () => {
               />
             </a>
           </div>
-
+*/}
+{/*
           <div>
             <a
               target="_blank"
@@ -156,6 +148,7 @@ const Sponsors = () => {
               />
             </a>
           </div>
+*/}
 
           <div>
             <a target="_blank" href="https://www.designforjoy.co.uk/">

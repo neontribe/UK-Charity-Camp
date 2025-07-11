@@ -11,10 +11,10 @@ import SignupForm from "@/app/components/SignupForm/SignupForm";
 export default function Home() {
   /* fill and set this object to control the page */
   const event = {
-    eventDate: null,
-    venueUrl: null,
-    venueName: null,
-    ticketingHref: null,
+    eventDate: "13th of November, 2025",
+    venueUrl: "https://thestudio.co.uk/venues/birmingham/",
+    venueName: "The Studio",
+    ticketingHref: "https://www.eventbrite.co.uk/e/ukcharitycamp-2025-tickets-1480974597889",
   };
   return (
     <>
@@ -107,7 +107,7 @@ export default function Home() {
               </p>
 
               <p>
-                A range of third sector folk attended in 2024; from trustees to
+                A range of third sector folk attended in 2023 and 2024; from trustees to
                 people at smaller charities who have to “do digital” as well as
                 everything else to heads of digital at larger organisations. We
                 did our best to make it a welcome and inclusive place for
@@ -117,22 +117,36 @@ export default function Home() {
 
               <p>
                 As UKCharityCamp is an unconference, the {""}
-                <a
-                  className="link"
+                <a className="link"
                   target="_blank"
                   href="https://docs.google.com/spreadsheets/d/1Ar4fC1wVAhYSz2gYn61pvh3OD2TPfT4oh8rLg4PAH7w/edit#gid=0"
-                >
-                  agenda was worked out at the event {"  "}
-                </a>
+                >agenda was worked out at the event {"  "}</a>
                 by the people who were there. Folks came along with their
                 questions, challenges, ideas and experiences to share. It was a
                 genuinely inspiring day, so we&apos;re doing it again.
               </p>
 
               <p>
-                Sign up for more information if you&apos;d like to join us in Birmingham on
-                Thursday 13 November 2025, and we&apos;ll let you know when tickets are available.
+              It&apos;ll be at <a
+                  className="link"
+                  target="_blank"
+                  href={event.venueUrl}
+                >{event.venueName}</a>, in Birmingham.
               </p>
+
+              <p>
+              It&apos;ll start at 10am, on the 13th of November, 2025.
+              </p>
+
+              Tickets are available {""}
+                <a
+                  className="link"
+                  target="_blank"
+                  href="https://www.eventbrite.co.uk/e/ukcharitycamp-2025-tickets-1480974597889"
+                >
+                  now. {"  "}
+                </a>
+              <p />
               <blockquote className="quote">
                 <p>
                   You come away with things you can action. Tangible things.
