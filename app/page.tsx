@@ -147,7 +147,7 @@ export default function Home() {
                 <a
                   className="link"
                   target="_blank"
-                  href="https://someurl"
+                  href="https://www.eventbrite.co.uk/e/ukcharitycamp-2025-tickets-1480974597889"
                 >
                   now. {"  "}
                 </a>
