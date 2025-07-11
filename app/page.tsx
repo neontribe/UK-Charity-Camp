@@ -11,10 +11,10 @@ import SignupForm from "@/app/components/SignupForm/SignupForm";
 export default function Home() {
   /* fill and set this object to control the page */
   const event = {
-    eventDate: null,
-    venueUrl: null,
-    venueName: null,
-    ticketingHref: null,
+    eventDate: "13th of November, 2025",
+    venueUrl: "https://thestudio.co.uk/venues/birmingham/",
+    venueName: "The Studio",
+    ticketingHref: "https://www.eventbrite.co.uk/e/ukcharitycamp-2025-tickets-1480974597889",
   };
   return (
     <>
@@ -130,10 +130,8 @@ export default function Home() {
               It&apos;ll be at <a
                   className="link"
                   target="_blank"
-                  href="https://thestudio.co.uk/venues/birmingham/"
-                >
-                  The Studio {"  "}
-                </a>, in Birmingham.
+                  href={event.venueUrl}
+                >{event.venueName}</a>, in Birmingham.
               </p>
 
               <p>

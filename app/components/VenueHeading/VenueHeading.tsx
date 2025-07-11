@@ -13,14 +13,16 @@ const VenueHeading: React.FC<VenueHeadingProps> = ({
 }) => {
   return (
     <div>
-      <h2 className="date-heading">
-        {date ?? ""}{" "}
-        {venueUrl ? (
-          <a href={venueUrl}>{venueName ?? ""}</a>
-        ) : (
-          <span>{venueName ?? ""}</span>
-        )}
-      </h2>
+      <div className="date-heading">{date ?? ""} </div>
+      <div className="date-heading">
+        <span>
+          {venueUrl ? (
+            <a href={venueUrl}>{venueName ?? ""}</a>
+          ) : (
+            venueName ?? ""
+          )}
+        </span>
+      </div>
     </div>
   );
 };
