@@ -34,7 +34,7 @@ const Sponsors = () => {
 
         <div className="sponsor-large">
           <div>
-            <a target="_blank" href="https://zounou.com/">
+            <a target="_blank" href="https://zoonou.com/">
               <Image
                 width={173}
                 height={32}
