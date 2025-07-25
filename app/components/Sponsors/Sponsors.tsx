@@ -34,10 +34,35 @@ const Sponsors = () => {
 
         <div className="sponsor-large">
           <div>
+            <a target="_blank" href="https://zounou.com/">
+              <Image
+                width={173}
+                height={32}
+                alt="Thank you to Zoonou for sponsoring this event"
+                src="/zoonou.png"
+              />
+            </a>
+          </div>
+
+          <div>
+            <a target="_blank" href="https://www.socialaf.co.uk/">
+              <Image
+                width={195}
+                height={37}
+                alt="Thank you to SocialAF for sponsoring this event"
+                src="/socialaf.png"
+              />
+            </a>
+          </div>
+
+        </div>
+
+        <div className="sponsor-large">
+          <div>
             <a target="_blank" href="https://torchbox.com/">
               <Image
                 width={145}
-                height={55}
+                height={41}
                 alt="Thank you to Torchbox for sponsoring this event"
                 src="/torchbox.png"
               />
