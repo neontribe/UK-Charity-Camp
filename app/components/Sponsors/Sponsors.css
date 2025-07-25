@@ -31,14 +31,10 @@
 .sponsor-large {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 2rem;
   justify-content: space-around;
   padding: 1rem 2rem;
   align-items: baseline;
-}
-
-.sponsor-large:nth-child(2) {
-  padding-top: 0;
 }
 
 .sponsor-grid {
@@ -65,7 +61,7 @@
 @media (max-width: 360px) {
   .sponsor-grid,
   .sponsor-large {
-    gap: 25px;
+    gap: 2rem;
   }
 
   .sponsor-large {
