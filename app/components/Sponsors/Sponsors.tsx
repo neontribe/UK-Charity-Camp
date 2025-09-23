@@ -95,20 +95,17 @@ const Sponsors = () => {
           </div>
 */}
 
-{/*
           <div>
             <a target="_blank" href="https://poteris.co.uk/">
               <Image
                 width={145}
-                height={65}
+                height={41}
                 alt="Thank you to Poteris for sponsoring this event"
                 src="/poteris.svg"
               />
             </a>
           </div>
-*/}
         </div>
-
 
         <div className="sponsor-grid">
 
@@ -123,7 +120,6 @@ const Sponsors = () => {
             </a>
           </div>
 
-{/*
           <div>
             <a target="_blank" href="https://www.nexerdigital.com/">
               <Image
@@ -134,7 +130,6 @@ const Sponsors = () => {
               />
             </a>
           </div>
-*/}
 
           <div>
             <a target="_blank" href="https://www.promo.cymru/">
