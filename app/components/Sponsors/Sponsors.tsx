@@ -146,7 +146,6 @@ const Sponsors = () => {
             </a>
           </div>
 
-{/*
           <div>
             <a target="_blank" href="https://www.wearecast.org.uk/">
               <Image
@@ -157,8 +156,7 @@ const Sponsors = () => {
               />
             </a>
           </div>
-*/}
-{/*
+
           <div>
             <a
               target="_blank"
@@ -172,7 +170,6 @@ const Sponsors = () => {
               />
             </a>
           </div>
-*/}
 
           <div>
             <a target="_blank" href="https://www.designforjoy.co.uk/">
