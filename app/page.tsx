@@ -11,10 +11,17 @@ import SignupForm from "@/app/components/SignupForm/SignupForm";
 export default function Home() {
   /* fill and set this object to control the page */
   const event = {
+    /*
     eventDate: "13th of November, 2025",
     venueUrl: "https://thestudio.co.uk/venues/birmingham/",
     venueName: "The Studio",
     ticketingHref: "https://www.eventbrite.co.uk/e/ukcharitycamp-2025-tickets-1480974597889",
+
+     */
+    eventDate: null,
+    venueUrl: '',
+    venueName: null,
+    ticketingHref: null,
   };
   return (
     <>
@@ -52,16 +59,16 @@ export default function Home() {
                 />
               </div>
               <VenueHeading
-                date={event.eventDate}
-                venueUrl={event.venueUrl}
-                venueName={event.venueName}
+                date={event?.eventDate}
+                venueUrl={event?.venueUrl}
+                venueName={event?.venueName}
               />
             </div>
 
-            { event.ticketingHref ? (
+            { event?.ticketingHref ? (
               <HyperlinkButton
                 buttonText="Get Tickets"
-                href={event.ticketingHref}
+                href={event?.ticketingHref}
               />
             ) : (
               <SignupForm />
@@ -126,12 +133,13 @@ export default function Home() {
                 genuinely inspiring day, so we&apos;re doing it again.
               </p>
 
+              { /*
               <p>
               It&apos;ll be at <a
                   className="link"
                   target="_blank"
-                  href={event.venueUrl}
-                >{event.venueName}</a>, in Birmingham.
+                  href={event?.venueUrl}
+                >{event?.venueName}</a>, in Birmingham.
               </p>
 
               <p>
@@ -147,6 +155,7 @@ export default function Home() {
                   now. {"  "}
                 </a>
               <p />
+              */ }
               <blockquote className="quote">
                 <p>
                   You come away with things you can action. Tangible things.
