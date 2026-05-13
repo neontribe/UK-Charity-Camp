@@ -12,7 +12,7 @@ export default function Home() {
   /* fill and set this object to control the page */
   const event = {
     /*
-    eventDate: "13th of November, 2025",
+    eventDate: "5th of November, 2026",
     venueUrl: "https://thestudio.co.uk/venues/birmingham/",
     venueName: "The Studio",
     ticketingHref: "https://www.eventbrite.co.uk/e/ukcharitycamp-2025-tickets-1480974597889",
@@ -112,9 +112,11 @@ export default function Home() {
                 folk who work with them, and travel bursaries for those who need
                 them.
               </p>
-
               <p>
-                A range of third sector folk attended in 2023 and 2024; from trustees to
+              The next UKCharityCamp starts at 10am, on the 5th of November 2026, at The Studio, in Birmingham.
+              </p>
+              <p>
+                A range of third sector folk have attended over the last three years; from trustees to
                 people at smaller charities who have to “do digital” as well as
                 everything else to heads of digital at larger organisations. We
                 did our best to make it a welcome and inclusive place for
@@ -143,7 +145,7 @@ export default function Home() {
               </p>
 
               <p>
-              It&apos;ll start at 10am, on the 13th of November, 2025.
+              It&apos;ll start at 10am, on the 5th of November, 2026.
               </p>
 
               Tickets are available {""}
