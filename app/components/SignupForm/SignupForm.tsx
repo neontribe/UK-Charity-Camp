@@ -1,5 +1,9 @@
-import { FormEvent, useState } from "react";
+"use client";
+
+import { useState } from "react";
 import "./SignupForm.css";
+
+type FormSubmit = NonNullable<React.ComponentProps<"form">["onSubmit"]>;
 
 const SignupForm = () => {
   const [email, setEmail] = useState("");
@@ -28,7 +32,7 @@ const SignupForm = () => {
     });
   };
 
-  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+  const handleSubmit: FormSubmit = async (e) => {
     e.preventDefault();
     setSubmissionMessage("");
     if (url !== "") {
