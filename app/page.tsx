@@ -19,7 +19,7 @@ export default function Home() {
 
      */
     eventDate: null,
-    venueUrl: '',
+    venueUrl: "",
     venueName: null,
     ticketingHref: null,
   };
@@ -65,7 +65,7 @@ export default function Home() {
               />
             </div>
 
-            { event?.ticketingHref ? (
+            {event?.ticketingHref ? (
               <HyperlinkButton
                 buttonText="Get Tickets"
                 href={event?.ticketingHref}
@@ -114,26 +114,29 @@ export default function Home() {
               </p>
 
               <p>
-                A range of third sector folk attended in 2023 and 2024; from trustees to
-                people at smaller charities who have to “do digital” as well as
-                everything else to heads of digital at larger organisations. We
-                did our best to make it a welcome and inclusive place for
-                everyone from experts to complete beginners. Diverse experiences
-                made for a better event.
+                A range of third sector folk attended in 2023 and 2024; from
+                trustees to people at smaller charities who have to “do digital”
+                as well as everything else to heads of digital at larger
+                organisations. We did our best to make it a welcome and
+                inclusive place for everyone from experts to complete beginners.
+                Diverse experiences made for a better event.
               </p>
 
               <p>
                 As UKCharityCamp is an unconference, the {""}
-                <a className="link"
+                <a
+                  className="link"
                   target="_blank"
                   href="https://docs.google.com/spreadsheets/d/1Ar4fC1wVAhYSz2gYn61pvh3OD2TPfT4oh8rLg4PAH7w/edit#gid=0"
-                >agenda was worked out at the event {"  "}</a>
+                >
+                  agenda was worked out at the event {"  "}
+                </a>
                 by the people who were there. Folks came along with their
                 questions, challenges, ideas and experiences to share. It was a
                 genuinely inspiring day, so we&apos;re doing it again.
               </p>
 
-              { /*
+              {/*
               <p>
               It&apos;ll be at <a
                   className="link"
@@ -155,7 +158,7 @@ export default function Home() {
                   now. {"  "}
                 </a>
               <p />
-              */ }
+              */}
               <blockquote className="quote">
                 <p>
                   You come away with things you can action. Tangible things.

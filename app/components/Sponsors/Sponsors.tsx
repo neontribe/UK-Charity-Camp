@@ -54,9 +54,7 @@ const Sponsors = () => {
               />
             </a>
           </div>
-
         </div>
-
 
         <div className="sponsor-large">
           <div>
@@ -84,7 +82,7 @@ const Sponsors = () => {
           </div>
         </div>
 
-{/*
+        {/*
           <div>
             <a target="_blank" href="https://public.digital/">
               <Image
@@ -97,7 +95,7 @@ const Sponsors = () => {
           </div>
 */}
 
-{/*
+        {/*
           <div>
             <a target="_blank" href="https://basis.co.uk/">
               <Image
@@ -110,9 +108,7 @@ const Sponsors = () => {
           </div>
 */}
 
-
         <div className="sponsor-grid">
-
           <div>
             <a target="_blank" href="https://thirdsectorlab.co.uk/">
               <Image

@@ -20,7 +20,7 @@ const SignupForm = () => {
     await fetch(myRequest).then((response) => {
       if (response.status >= 400) {
         setSubmissionMessage(
-          "Sorry something went wrong... please try again later"
+          "Sorry something went wrong... please try again later",
         );
       } else {
         setSubmissionMessage("Success! You're officially signed up!");
