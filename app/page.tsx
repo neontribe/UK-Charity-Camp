@@ -113,15 +113,16 @@ export default function Home() {
                 them.
               </p>
               <p>
-              The next UKCharityCamp starts at 10am, on the 5th of November 2026, at The Studio, in Birmingham.
+                The next UKCharityCamp starts at 10am, on the 5th of November
+                2026, at The Studio, in Birmingham.
               </p>
               <p>
-                A range of third sector folk have attended over the last three years; from trustees to
-                people at smaller charities who have to “do digital” as well as
-                everything else to heads of digital at larger organisations. We
-                did our best to make it a welcome and inclusive place for
-                everyone from experts to complete beginners. Diverse experiences
-                made for a better event.
+                A range of third sector folk have attended over the last three
+                years; from trustees to people at smaller charities who have to
+                “do digital” as well as everything else to heads of digital at
+                larger organisations. We did our best to make it a welcome and
+                inclusive place for everyone from experts to complete beginners.
+                Diverse experiences made for a better event.
               </p>
 
               <p>
