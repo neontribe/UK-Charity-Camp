@@ -11,17 +11,11 @@ import SignupForm from "@/app/components/SignupForm/SignupForm";
 export default function Home() {
   /* fill and set this object to control the page */
   const event = {
-    /*
     eventDate: "5th of November, 2026",
     venueUrl: "https://thestudio.co.uk/venues/birmingham/",
     venueName: "The Studio",
-    ticketingHref: "https://www.eventbrite.co.uk/e/ukcharitycamp-2025-tickets-1480974597889",
-
-     */
-    eventDate: null,
-    venueUrl: "",
-    venueName: null,
-    ticketingHref: null,
+    ticketingHref:
+      "https://www.eventbrite.co.uk/e/ukcharitycamp-2026-tickets-1988623973838",
   };
   return (
     <>
@@ -131,9 +125,7 @@ export default function Home() {
                   className="link"
                   target="_blank"
                   href="https://docs.google.com/spreadsheets/d/1Ar4fC1wVAhYSz2gYn61pvh3OD2TPfT4oh8rLg4PAH7w/edit#gid=0"
-                >
-                  agenda was worked out at the event {"  "}
-                </a>
+                >agenda was worked out at the event {"  "}</a>
                 by the people who were there. Folks came along with their
                 questions, challenges, ideas and experiences to share. It was a
                 genuinely inspiring day, so we&apos;re doing it again.
