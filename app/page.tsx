@@ -11,17 +11,11 @@ import SignupForm from "@/app/components/SignupForm/SignupForm";
 export default function Home() {
   /* fill and set this object to control the page */
   const event = {
-    /*
     eventDate: "5th of November, 2026",
     venueUrl: "https://thestudio.co.uk/venues/birmingham/",
     venueName: "The Studio",
-    ticketingHref: "https://www.eventbrite.co.uk/e/ukcharitycamp-2025-tickets-1480974597889",
-
-     */
-    eventDate: null,
-    venueUrl: '',
-    venueName: null,
-    ticketingHref: null,
+    ticketingHref:
+      "https://www.eventbrite.co.uk/e/ukcharitycamp-2026-tickets-1988623973838",
   };
   return (
     <>
@@ -65,7 +59,7 @@ export default function Home() {
               />
             </div>
 
-            { event?.ticketingHref ? (
+            {event?.ticketingHref ? (
               <HyperlinkButton
                 buttonText="Get Tickets"
                 href={event?.ticketingHref}
@@ -113,20 +107,22 @@ export default function Home() {
                 them.
               </p>
               <p>
-              The next UKCharityCamp starts at 10am, on the 5th of November 2026, at The Studio, in Birmingham.
+                The next UKCharityCamp starts at 10am, on the 5th of November
+                2026, at The Studio, in Birmingham.
               </p>
               <p>
-                A range of third sector folk have attended over the last three years; from trustees to
-                people at smaller charities who have to “do digital” as well as
-                everything else to heads of digital at larger organisations. We
-                did our best to make it a welcome and inclusive place for
-                everyone from experts to complete beginners. Diverse experiences
-                made for a better event.
+                A range of third sector folk have attended over the last three
+                years; from trustees to people at smaller charities who have to
+                “do digital” as well as everything else to heads of digital at
+                larger organisations. We did our best to make it a welcome and
+                inclusive place for everyone from experts to complete beginners.
+                Diverse experiences made for a better event.
               </p>
 
               <p>
                 As UKCharityCamp is an unconference, the {""}
-                <a className="link"
+                <a
+                  className="link"
                   target="_blank"
                   href="https://docs.google.com/spreadsheets/d/1Ar4fC1wVAhYSz2gYn61pvh3OD2TPfT4oh8rLg4PAH7w/edit#gid=0"
                 >agenda was worked out at the event {"  "}</a>
@@ -135,7 +131,7 @@ export default function Home() {
                 genuinely inspiring day, so we&apos;re doing it again.
               </p>
 
-              { /*
+              {/*
               <p>
               It&apos;ll be at <a
                   className="link"
@@ -157,7 +153,7 @@ export default function Home() {
                   now. {"  "}
                 </a>
               <p />
-              */ }
+              */}
               <blockquote className="quote">
                 <p>
                   You come away with things you can action. Tangible things.
