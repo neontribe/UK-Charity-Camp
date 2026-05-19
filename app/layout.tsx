@@ -1,11 +1,11 @@
 import "./global.css";
 import "./variables.css";
+import React from "react";
 
 export const metadata = {
   title: "UK Charity Camp",
   description:
     "An unconference event that means charities across the sector come together, share and learn.",
-
 };
 
 export default function RootLayout({

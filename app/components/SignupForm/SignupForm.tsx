@@ -1,5 +1,9 @@
-import { FormEvent, useState } from "react";
+"use client";
+
+import { useState } from "react";
 import "./SignupForm.css";
+
+type FormSubmit = NonNullable<React.ComponentProps<"form">["onSubmit"]>;
 
 const SignupForm = () => {
   const [email, setEmail] = useState("");
@@ -20,7 +24,7 @@ const SignupForm = () => {
     await fetch(myRequest).then((response) => {
       if (response.status >= 400) {
         setSubmissionMessage(
-          "Sorry something went wrong... please try again later"
+          "Sorry something went wrong... please try again later",
         );
       } else {
         setSubmissionMessage("Success! You're officially signed up!");
@@ -28,7 +32,7 @@ const SignupForm = () => {
     });
   };
 
-  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+  const handleSubmit: FormSubmit = async (e) => {
     e.preventDefault();
     setSubmissionMessage("");
     if (url !== "") {

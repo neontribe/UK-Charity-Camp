@@ -19,7 +19,7 @@ const VenueHeading: React.FC<VenueHeadingProps> = ({
           {venueUrl ? (
             <a href={venueUrl}>{venueName ?? ""}</a>
           ) : (
-            venueName ?? ""
+            (venueName ?? "")
           )}
         </span>
       </div>
