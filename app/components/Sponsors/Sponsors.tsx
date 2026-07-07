@@ -5,7 +5,7 @@ const Sponsors = () => {
   return (
     <div className="sponsor-container">
       <div className="sponsor-heading-container">
-        <p className="sponsor-heading-text">Thank you to our 2025 sponsors</p>
+        <p className="sponsor-heading-text">Thank you to our 2026 sponsors</p>
       </div>
       <div className="sponsor-body-container">
         <div className="sponsor-large">
@@ -55,7 +55,7 @@ const Sponsors = () => {
             </a>
           </div>
         </div>
-
+<!--
         <div className="sponsor-large">
           <div>
             <a target="_blank" href="https://poteris.co.uk/">
@@ -188,6 +188,9 @@ const Sponsors = () => {
               />
             </a>
           </div>
+
+-->
+          
           <div>
             <a target="_blank" href="https://teamtilt.co.uk/">
               <Image
