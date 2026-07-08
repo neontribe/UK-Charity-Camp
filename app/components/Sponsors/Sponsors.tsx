@@ -105,9 +105,9 @@ const Sponsors = () => {
               />
             </a>
           </div>
-
-
+*/}
         <div className="sponsor-grid">
+          {/*
           <div>
             <a target="_blank" href="https://thirdsectorlab.co.uk/">
               <Image
