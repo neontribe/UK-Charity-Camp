@@ -81,8 +81,7 @@ const Sponsors = () => {
             </a>
           </div>
         </div>
-
-        {/*
+        
           <div>
             <a target="_blank" href="https://public.digital/">
               <Image
