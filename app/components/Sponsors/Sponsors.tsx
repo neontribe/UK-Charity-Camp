@@ -43,7 +43,7 @@ const Sponsors = () => {
               />
             </a>
           </div>
-{/*
+          {/*
           <div>
             <a target="_blank" href="https://www.socialaf.co.uk/">
               <Image
@@ -56,7 +56,7 @@ const Sponsors = () => {
           </div>
 */}
         </div>
-{/*
+        {/*
         <div className="sponsor-large">
           <div>
             <a target="_blank" href="https://poteris.co.uk/">
@@ -190,7 +190,16 @@ const Sponsors = () => {
           </div>
 
 */}
-          
+          <div>
+            <a target="_blank" href="https://www.radiatehiring.com/">
+              <Image
+                width={70}
+                height={70}
+                alt="Thank you to Radiate Hiring for sponsoring this event"
+                src="/radiate-hiring.webp"
+              />
+            </a>
+          </div>
           <div>
             <a target="_blank" href="https://teamtilt.co.uk/">
               <Image
