@@ -125,7 +125,9 @@ export default function Home() {
                   className="link"
                   target="_blank"
                   href="https://docs.google.com/spreadsheets/d/1Ar4fC1wVAhYSz2gYn61pvh3OD2TPfT4oh8rLg4PAH7w/edit#gid=0"
-                >agenda was worked out at the event {"  "}</a>
+                >
+                  agenda was worked out at the event {"  "}
+                </a>
                 by the people who were there. Folks came along with their
                 questions, challenges, ideas and experiences to share. It was a
                 genuinely inspiring day, so we&apos;re doing it again.
