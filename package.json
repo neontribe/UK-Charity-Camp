@@ -19,7 +19,7 @@
     "next": "15.5.27",
     "react": "19.3.0",
     "react-dom": "19.3.0",
-    "typescript": "5.9.3"
+    "typescript": "7.0.2"
   },
   "devDependencies": {
     "eslint-config-prettier": "9.1.2",
