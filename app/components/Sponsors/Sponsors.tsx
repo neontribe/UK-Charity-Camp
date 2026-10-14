@@ -56,7 +56,7 @@ const Sponsors = () => {
           </div>
 */}
         </div>
-        {/*
+
         <div className="sponsor-large">
           <div>
             <a target="_blank" href="https://poteris.co.uk/">
@@ -69,7 +69,7 @@ const Sponsors = () => {
             </a>
           </div>
         </div>
-
+  {/*
         <div className="sponsor-large">
           <div>
             <a target="_blank" href="https://torchbox.com/">
@@ -93,8 +93,6 @@ const Sponsors = () => {
               />
             </a>
           </div>
-
-
         
           <div>
             <a target="_blank" href="https://basis.co.uk/">
@@ -106,9 +104,7 @@ const Sponsors = () => {
               />
             </a>
           </div>
-*/}
-        <div className="sponsor-grid">
-          {/*
+          
           <div>
             <a target="_blank" href="https://thirdsectorlab.co.uk/">
               <Image
@@ -119,6 +115,30 @@ const Sponsors = () => {
               />
             </a>
           </div>
+
+          <div>
+            <a target="_blank" href="https://www.designforjoy.co.uk/">
+              <Image
+                width={60}
+                height={60}
+                alt="Thank you to Design For Joy for sponsoring this event"
+                src="/joy.jpg"
+              />
+            </a>
+          </div>
+
+          <div>
+            <a target="_blank" href="https://www.charitychangecollective.uk/">
+              <Image
+                width={130}
+                height={70}
+                alt="Thank you to Charity Change Collective for sponsoring this event"
+                src="/ccc.png"
+              />
+            </a>
+          </div>
+*/}
+        <div className="sponsor-grid">
 
           <div>
             <a target="_blank" href="https://www.nexerdigital.com/">
@@ -166,30 +186,7 @@ const Sponsors = () => {
               />
             </a>
           </div>
-
-          <div>
-            <a target="_blank" href="https://www.designforjoy.co.uk/">
-              <Image
-                width={60}
-                height={60}
-                alt="Thank you to Design For Joy for sponsoring this event"
-                src="/joy.jpg"
-              />
-            </a>
-          </div>
-
-          <div>
-            <a target="_blank" href="https://www.charitychangecollective.uk/">
-              <Image
-                width={130}
-                height={70}
-                alt="Thank you to Charity Change Collective for sponsoring this event"
-                src="/ccc.png"
-              />
-            </a>
-          </div>
-
-*/}
+  
           <div>
             <a target="_blank" href="https://www.radiatehiring.com/">
               <Image
