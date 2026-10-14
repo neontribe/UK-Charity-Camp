@@ -43,7 +43,7 @@ const Sponsors = () => {
               />
             </a>
           </div>
-          {/*
+  {/*
           <div>
             <a target="_blank" href="https://www.socialaf.co.uk/">
               <Image
